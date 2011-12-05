@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FinanceManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FinanceManagerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4500C04214897BAB0078094B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4500C04114897BAB0078094B /* Default.png */; };
+		459DF5AC148966CB0064A308 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 459DF5AB148966CB0064A308 /* background.png */; };
+		45BA5A85148717A100098F36 /* AddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5A83148717A100098F36 /* AddTransactionViewController.m */; };
+		45BA5A86148717A100098F36 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5A84148717A100098F36 /* AddTransactionViewController.xib */; };
+		45BA5B4F1487311100098F36 /* Calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5B4E1487311100098F36 /* Calendar_icon.png */; };
+		45BA5B7014873D3300098F36 /* SwitchViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5B6F14873D3300098F36 /* SwitchViewController1.m */; };
+		45BA5B751487411B00098F36 /* SetBudgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5B731487411B00098F36 /* SetBudgetViewController.m */; };
+		45BA5B761487411B00098F36 /* SetBudgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5B741487411B00098F36 /* SetBudgetViewController.xib */; };
+		45F57F4F148840CA00D847A4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F57F4E148840CA00D847A4 /* Item.m */; };
+		45F57F611488437300D847A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F57F601488437300D847A4 /* libsqlite3.dylib */; };
+		45F57F991488527000D847A4 /* ViewTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F57F971488527000D847A4 /* ViewTransactionViewController.m */; };
+		45F57F9A1488527000D847A4 /* ViewTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F57F981488527000D847A4 /* ViewTransactionViewController.xib */; };
+		45F5805E1488614A00D847A4 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5805D1488614A00D847A4 /* CustomCell.m */; };
+		45F580691488620400D847A4 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F580681488620400D847A4 /* CustomCell.xib */; };
+		45F580A514886A1400D847A4 /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F580A414886A1400D847A4 /* 172-pricetag.png */; };
+		45F580A714886A2300D847A4 /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F580A614886A2300D847A4 /* 162-receipt.png */; };
+		CE2937A4148BF44000E4139B /* Green dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2937A3148BF44000E4139B /* Green dollar.png */; };
+		CE7FF2BC148ACA3E0053A15F /* Budget.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7FF2BB148ACA3E0053A15F /* Budget.m */; };
+		CE819B80148C62A600A064DE /* PocketMoneyIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */; };
+		CE819B9B148C644500A064DE /* money_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE819B9A148C644500A064DE /* money_icon.jpg */; };
+		CE824B3E148C50E7000C1763 /* database1.sql in Resources */ = {isa = PBXBuildFile; fileRef = CE824B3C148C50E7000C1763 /* database1.sql */; };
+		CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE824B3D148C50E7000C1763 /* Green dollar.png */; };
+		CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B40148C5130000C1763 /* BudgetCell.xib */; };
+		CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B41148C5130000C1763 /* BudgetItemViewController.xib */; };
+		CE824B4A148C5184000C1763 /* BudgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE824B45148C5184000C1763 /* BudgetCell.m */; };
+		CE824B4B148C5184000C1763 /* BudgetItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE824B47148C5184000C1763 /* BudgetItemViewController.m */; };
+		CE824B4C148C5184000C1763 /* ViewBudgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE824B49148C5184000C1763 /* ViewBudgetViewController.m */; };
+		CE824B54148C51BA000C1763 /* ViewBudgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FinanceManagerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceManagerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FinanceManagerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinanceManagerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FinanceManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceManager_Prefix.pch; sourceTree = "<group>"; };
+		4500C04114897BAB0078094B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		459DF5AB148966CB0064A308 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		45BA5A82148717A100098F36 /* AddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionViewController.h; sourceTree = "<group>"; };
+		45BA5A83148717A100098F36 /* AddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionViewController.m; sourceTree = "<group>"; };
+		45BA5A84148717A100098F36 /* AddTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddTransactionViewController.xib; path = Classes/AddTransactionViewController.xib; sourceTree = "<group>"; };
+		45BA5B4E1487311100098F36 /* Calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar_icon.png; sourceTree = "<group>"; };
+		45BA5B6E14873D3300098F36 /* SwitchViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController1.h; sourceTree = "<group>"; };
+		45BA5B6F14873D3300098F36 /* SwitchViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController1.m; sourceTree = "<group>"; };
+		45BA5B721487411B00098F36 /* SetBudgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetBudgetViewController.h; sourceTree = "<group>"; };
+		45BA5B731487411B00098F36 /* SetBudgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetBudgetViewController.m; sourceTree = "<group>"; };
+		45BA5B741487411B00098F36 /* SetBudgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SetBudgetViewController.xib; path = Classes/SetBudgetViewController.xib; sourceTree = "<group>"; };
+		45F57F4D148840CA00D847A4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		45F57F4E148840CA00D847A4 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		45F57F601488437300D847A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		45F57F961488527000D847A4 /* ViewTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTransactionViewController.h; sourceTree = "<group>"; };
+		45F57F971488527000D847A4 /* ViewTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTransactionViewController.m; sourceTree = "<group>"; };
+		45F57F981488527000D847A4 /* ViewTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewTransactionViewController.xib; path = Classes/ViewTransactionViewController.xib; sourceTree = "<group>"; };
+		45F5805C1488614A00D847A4 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		45F5805D1488614A00D847A4 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		45F580681488620400D847A4 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		45F580A414886A1400D847A4 /* 172-pricetag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "172-pricetag.png"; sourceTree = "<group>"; };
+		45F580A614886A2300D847A4 /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FinanceManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FinanceManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE2937A3148BF44000E4139B /* Green dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green dollar.png"; sourceTree = "<group>"; };
+		CE7FF2BA148ACA3E0053A15F /* Budget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Budget.h; sourceTree = "<group>"; };
+		CE7FF2BB148ACA3E0053A15F /* Budget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Budget.m; sourceTree = "<group>"; };
+		CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PocketMoneyIcon.jpg; sourceTree = "<group>"; };
+		CE819B9A148C644500A064DE /* money_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = money_icon.jpg; sourceTree = "<group>"; };
+		CE824B3C148C50E7000C1763 /* database1.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database1.sql; sourceTree = "<group>"; };
+		CE824B3D148C50E7000C1763 /* Green dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green dollar.png"; sourceTree = "<group>"; };
+		CE824B40148C5130000C1763 /* BudgetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetCell.xib; sourceTree = "<group>"; };
+		CE824B41148C5130000C1763 /* BudgetItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetItemViewController.xib; sourceTree = "<group>"; };
+		CE824B44148C5184000C1763 /* BudgetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetCell.h; sourceTree = "<group>"; };
+		CE824B45148C5184000C1763 /* BudgetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetCell.m; sourceTree = "<group>"; };
+		CE824B46148C5184000C1763 /* BudgetItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetItemViewController.h; sourceTree = "<group>"; };
+		CE824B47148C5184000C1763 /* BudgetItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetItemViewController.m; sourceTree = "<group>"; };
+		CE824B48148C5184000C1763 /* ViewBudgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBudgetViewController.h; sourceTree = "<group>"; };
+		CE824B49148C5184000C1763 /* ViewBudgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBudgetViewController.m; sourceTree = "<group>"; };
+		CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewBudgetViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				45F57F611488437300D847A4 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FinanceManagerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FinanceManagerAppDelegate.m */,
+				45BA5A82148717A100098F36 /* AddTransactionViewController.h */,
+				45BA5A83148717A100098F36 /* AddTransactionViewController.m */,
+				45BA5B6E14873D3300098F36 /* SwitchViewController1.h */,
+				45BA5B6F14873D3300098F36 /* SwitchViewController1.m */,
+				45BA5B721487411B00098F36 /* SetBudgetViewController.h */,
+				45BA5B731487411B00098F36 /* SetBudgetViewController.m */,
+				45F57F4D148840CA00D847A4 /* Item.h */,
+				45F57F4E148840CA00D847A4 /* Item.m */,
+				45F57F961488527000D847A4 /* ViewTransactionViewController.h */,
+				45F57F971488527000D847A4 /* ViewTransactionViewController.m */,
+				45F5805C1488614A00D847A4 /* CustomCell.h */,
+				CE824B44148C5184000C1763 /* BudgetCell.h */,
+				CE824B45148C5184000C1763 /* BudgetCell.m */,
+				CE824B46148C5184000C1763 /* BudgetItemViewController.h */,
+				CE824B47148C5184000C1763 /* BudgetItemViewController.m */,
+				CE824B48148C5184000C1763 /* ViewBudgetViewController.h */,
+				CE824B49148C5184000C1763 /* ViewBudgetViewController.m */,
+				45F5805D1488614A00D847A4 /* CustomCell.m */,
+				CE7FF2BA148ACA3E0053A15F /* Budget.h */,
+				CE7FF2BB148ACA3E0053A15F /* Budget.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FinanceManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FinanceManager_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */,
+				CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */,
+				CE824B3C148C50E7000C1763 /* database1.sql */,
+				CE824B3D148C50E7000C1763 /* Green dollar.png */,
+				45F580A814886A2700D847A4 /* Images */,
+				CE824B40148C5130000C1763 /* BudgetCell.xib */,
+				CE824B41148C5130000C1763 /* BudgetItemViewController.xib */,
+				45BA5B741487411B00098F36 /* SetBudgetViewController.xib */,
+				45BA5A84148717A100098F36 /* AddTransactionViewController.xib */,
+				45F57F981488527000D847A4 /* ViewTransactionViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FinanceManager-Info.plist */,
+				45F580681488620400D847A4 /* CustomCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				45F57F601488437300D847A4 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45F580A814886A2700D847A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE819B9A148C644500A064DE /* money_icon.jpg */,
+				CE2937A3148BF44000E4139B /* Green dollar.png */,
+				4500C04114897BAB0078094B /* Default.png */,
+				459DF5AB148966CB0064A308 /* background.png */,
+				45F580A614886A2300D847A4 /* 162-receipt.png */,
+				45F580A414886A1400D847A4 /* 172-pricetag.png */,
+				45BA5B4E1487311100098F36 /* Calendar_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FinanceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FinanceManager" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceManager;
+			productName = FinanceManager;
+			productReference = 1D6058910D05DD3D006BFB54 /* FinanceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FinanceManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FinanceManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				45BA5A86148717A100098F36 /* AddTransactionViewController.xib in Resources */,
+				45BA5B4F1487311100098F36 /* Calendar_icon.png in Resources */,
+				45BA5B761487411B00098F36 /* SetBudgetViewController.xib in Resources */,
+				45F57F9A1488527000D847A4 /* ViewTransactionViewController.xib in Resources */,
+				45F580691488620400D847A4 /* CustomCell.xib in Resources */,
+				45F580A514886A1400D847A4 /* 172-pricetag.png in Resources */,
+				45F580A714886A2300D847A4 /* 162-receipt.png in Resources */,
+				459DF5AC148966CB0064A308 /* background.png in Resources */,
+				4500C04214897BAB0078094B /* Default.png in Resources */,
+				CE2937A4148BF44000E4139B /* Green dollar.png in Resources */,
+				CE824B3E148C50E7000C1763 /* database1.sql in Resources */,
+				CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */,
+				CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */,
+				CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */,
+				CE824B54148C51BA000C1763 /* ViewBudgetViewController.xib in Resources */,
+				CE819B80148C62A600A064DE /* PocketMoneyIcon.jpg in Resources */,
+				CE819B9B148C644500A064DE /* money_icon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FinanceManagerAppDelegate.m in Sources */,
+				45BA5A85148717A100098F36 /* AddTransactionViewController.m in Sources */,
+				45BA5B7014873D3300098F36 /* SwitchViewController1.m in Sources */,
+				45BA5B751487411B00098F36 /* SetBudgetViewController.m in Sources */,
+				45F57F4F148840CA00D847A4 /* Item.m in Sources */,
+				45F57F991488527000D847A4 /* ViewTransactionViewController.m in Sources */,
+				45F5805E1488614A00D847A4 /* CustomCell.m in Sources */,
+				CE7FF2BC148ACA3E0053A15F /* Budget.m in Sources */,
+				CE824B4A148C5184000C1763 /* BudgetCell.m in Sources */,
+				CE824B4B148C5184000C1763 /* BudgetItemViewController.m in Sources */,
+				CE824B4C148C5184000C1763 /* ViewBudgetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FinanceManager_Prefix.pch;
+				INFOPLIST_FILE = "FinanceManager-Info.plist";
+				PRODUCT_NAME = FinanceManager;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FinanceManager_Prefix.pch;
+				INFOPLIST_FILE = "FinanceManager-Info.plist";
+				PRODUCT_NAME = FinanceManager;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
