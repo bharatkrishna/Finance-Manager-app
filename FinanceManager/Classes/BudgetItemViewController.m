@@ -55,6 +55,7 @@
 							  [menuItem living],
 							  [menuItem gas],
 							  [menuItem other]]];
+	NSLog(@"item",[menuItem year]);
 }
 
 

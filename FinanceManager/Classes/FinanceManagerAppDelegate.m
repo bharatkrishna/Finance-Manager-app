@@ -74,7 +74,7 @@
 		return;
 	}
 	else {
-		NSString *databasePathFromApp = [[NSBundle mainBundle] pathForResource:@"database" ofType:@"sql"];
+		NSString *databasePathFromApp = [[NSBundle mainBundle] pathForResource:@"database1" ofType:@"sql"];
 		NSLog(@"path: %@", databasePathFromApp);
 		NSLog(@"to: %@", databasePath);
 		[fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
