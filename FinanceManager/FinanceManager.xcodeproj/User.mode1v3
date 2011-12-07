@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,8 +276,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -299,7 +299,7 @@
 							<real>245</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-59 130 1366 616 0 0 1366 746 </string>
+						<string>0 130 1366 616 0 0 1366 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,10 +324,6 @@
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>BudgetItemViewController.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>CE823F2C148EE90C000E898F</string>
 										<key>history</key>
 										<array>
 											<string>CE293770148BEE3F00E4139B</string>
@@ -375,14 +369,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1099, 445}}</string>
+								<string>{{0, 0}, {1099, 440}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-59 130 1366 616 0 0 1366 746 </string>
+								<string>0 130 1366 616 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>445pt</string>
+							<string>440pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -395,14 +389,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 450}, {1099, 125}}</string>
+								<string>{{0, 445}, {1099, 130}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-59 130 1366 616 0 0 1366 746 </string>
+								<string>0 130 1366 616 0 0 1366 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>125pt</string>
+							<string>130pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -421,9 +415,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CE823EE1148EE4FD000E898F</string>
+				<string>CEB06FDC148EEAB300A36971</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CE823EE2148EE4FD000E898F</string>
+				<string>CEB06FDD148EEAB300A36971</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -561,13 +555,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CE954CFD1474DB7400174307</string>
 		<string>/Users/User/.Trash/Finance-Manager-app/FinanceManager/FinanceManager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-59 130 1366 616 0 0 1366 746 </string>
+	<string>0 130 1366 616 0 0 1366 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -588,7 +580,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BudgetItemViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -605,8 +597,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -646,7 +636,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CE954CFD1474DB7400174307</string>
-				<string>CE823EE3148EE4FD000E898F</string>
+				<string>CEB06FDE148EEAB300A36971</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
