@@ -76,7 +76,7 @@
 	NSLog(@"opening database: %@", databasePath);
 	if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		NSLog(@"error msg: %s", sqlite3_errmsg(database));
-		NSString *insertStatement = [NSString stringWithFormat:@"DELETE FROM Budgets WHERE month='%@'", self.month];
+		NSString *insertStatement = [NSString stringWithFormat:@"DELETE FROM Budgets WHERE month='%@' AND year ='%@'", self.month, self.year];
 		sqlite3_stmt *compiledStatement;
 		if (sqlite3_prepare_v2(database, [insertStatement UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
 			int result = sqlite3_step(compiledStatement);

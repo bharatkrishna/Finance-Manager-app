@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PieClassAntiAlias.h"
 #import "Budget.h"
 
 @interface BudgetItemViewController : UIViewController {

@@ -8,6 +8,7 @@
 
 #import "BudgetItemViewController.h"
 #import "Budget.h"
+#import "PieClass.h"
 
 @implementation BudgetItemViewController
 
@@ -44,17 +45,42 @@
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+
 - (void)viewDidLoad {
+	
     [super viewDidLoad];
-	[menuItemDetails setText:[NSString stringWithFormat:@"\n\n\nYear: \n%@\nMonth: \n%@\nRent: \n%@\nUtilities: \n%@\nFood: \n%@\nLiving: \n%@\nGas: \n%@\nOther: \n%@", 
+	[menuItemDetails setText:[NSString stringWithFormat:@"\n\n\nYear: %@\nMonth: \n%@\nRent(purple): %@\nUtilities(red): %@\nFood(orange): %@\nLiving(yellow): %@\nGas(green): %@\nOther(blue): %@", 
 							  [menuItem year], 
 							  [menuItem month], 
 							  [menuItem rent],
 							  [menuItem utilities],
-							  [menuItem food],
+							 [menuItem food],
 							  [menuItem living],
 							  [menuItem gas],
 							  [menuItem other]]];
+	
+
+
+    
+    PieClass *myPieClass=[[PieClass alloc]initWithFrame:CGRectMake(0, 210, 320, 230)];
+    myPieClass.itemArray=[[NSArray alloc]initWithObjects:[menuItem rent],[menuItem utilities],[menuItem food],
+						  [menuItem living],[menuItem gas], [menuItem other], nil];
+    myPieClass.myColorArray=[[NSArray alloc]initWithObjects:
+							 [UIColor purpleColor],
+							 [UIColor redColor],
+							 [UIColor orangeColor],
+							 [UIColor yellowColor],
+							 [UIColor greenColor], 
+							 [UIColor blueColor], nil];
+    myPieClass.radius=100;
+    [self.view addSubview:myPieClass];
+    
+    
+  
+    
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+	
 	NSLog(@"item",[menuItem year]);
 }
 

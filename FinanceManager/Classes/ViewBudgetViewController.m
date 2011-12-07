@@ -160,7 +160,7 @@ NSLog(@"no of items %d", [budgetItems count]);
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
-		[[budgetItems objectAtIndex:[indexPath row]] removeItemFromDatabase];
+		[[budgetItems objectAtIndex:[indexPath row]] removeBudgetFromDatabase];
 		[budgetItems removeObjectAtIndex:[indexPath row]];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
