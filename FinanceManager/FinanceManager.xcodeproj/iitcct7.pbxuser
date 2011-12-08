@@ -56,8 +56,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 344816227;
-			PBXWorkspaceStateSaveDate = 344816227;
+			PBXPerProjectTemplateStateSaveDate = 345080260;
+			PBXWorkspaceStateSaveDate = 345080260;
 		};
 		perUserProjectItems = {
 			4500BFFF148970C70078094B /* PlistBookmark */ = 4500BFFF148970C70078094B /* PlistBookmark */;
@@ -76,9 +76,9 @@
 			45599681148D7D0A003DA7A9 /* PBXTextBookmark */ = 45599681148D7D0A003DA7A9 /* PBXTextBookmark */;
 			45599682148D7D0A003DA7A9 /* PBXTextBookmark */ = 45599682148D7D0A003DA7A9 /* PBXTextBookmark */;
 			45599683148D7D0A003DA7A9 /* PBXTextBookmark */ = 45599683148D7D0A003DA7A9 /* PBXTextBookmark */;
-			45599684148D7D0A003DA7A9 /* PBXTextBookmark */ = 45599684148D7D0A003DA7A9 /* PBXTextBookmark */;
-			45599685148D7D0A003DA7A9 /* PBXTextBookmark */ = 45599685148D7D0A003DA7A9 /* PBXTextBookmark */;
 			459DF5A0148965890064A308 /* PBXBookmark */ = 459DF5A0148965890064A308 /* PBXBookmark */;
+			459ED04D1491805200D6A682 /* PBXTextBookmark */ = 459ED04D1491805200D6A682 /* PBXTextBookmark */;
+			459ED06E1491829200D6A682 /* PBXTextBookmark */ = 459ED06E1491829200D6A682 /* PBXTextBookmark */;
 			45EA93E0148D3D0C0073F714 /* PBXTextBookmark */ = 45EA93E0148D3D0C0073F714 /* PBXTextBookmark */;
 			45F57F761488454400D847A4 /* PBXTextBookmark */ = 45F57F761488454400D847A4 /* PBXTextBookmark */;
 			45F57F8F148847D200D847A4 /* PBXTextBookmark */ = 45F57F8F148847D200D847A4 /* PBXTextBookmark */;
@@ -246,17 +246,21 @@
 		vrLen = 907;
 		vrLoc = 1025;
 	};
-	45599684148D7D0A003DA7A9 /* PBXTextBookmark */ = {
+	459DF5A0148965890064A308 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 45BA5B4E1487311100098F36 /* Calendar_icon.png */;
+	};
+	459ED04D1491805200D6A682 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 45F57F971488527000D847A4 /* ViewTransactionViewController.m */;
 		name = "ViewTransactionViewController.m: 60";
 		rLen = 0;
 		rLoc = 2279;
 		rType = 0;
-		vrLen = 755;
-		vrLoc = 1890;
+		vrLen = 733;
+		vrLoc = 2017;
 	};
-	45599685148D7D0A003DA7A9 /* PBXTextBookmark */ = {
+	459ED06E1491829200D6A682 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 45F57F971488527000D847A4 /* ViewTransactionViewController.m */;
 		name = "ViewTransactionViewController.m: 60";
@@ -265,10 +269,6 @@
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 2017;
-	};
-	459DF5A0148965890064A308 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 45BA5B4E1487311100098F36 /* Calendar_icon.png */;
 	};
 	45BA5A6F1487166700098F36 /* FinanceManager */ = {
 		isa = PBXExecutable;
@@ -411,7 +411,7 @@
 	45F57F971488527000D847A4 /* ViewTransactionViewController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{6006, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{6057, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{6107, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6808}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {922, 2704}}";
+			sepNavIntBoundsRect = "{{0, 0}, {922, 2743}}";
 			sepNavSelRange = "{2279, 0}";
 			sepNavVisRange = "{2017, 690}";
 		};

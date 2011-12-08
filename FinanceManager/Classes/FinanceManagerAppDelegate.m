@@ -14,7 +14,7 @@
 
 @synthesize window;
 @synthesize rootController;
-@synthesize items, budgetitems, nv1, nv2, sv1;
+@synthesize items, budgetitems, nv1, nv2, nv3, sv1;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -39,7 +39,7 @@
 	
 	[self readItemsFromDatabase];
 	[self readBudgetsFromDatabase];
-	NSArray* controllers = [NSArray arrayWithObjects:sv1, nv1, nv2, nil];
+	NSArray* controllers = [NSArray arrayWithObjects:sv1, nv1, nv2, nv3, nil];
 	rootController.viewControllers = controllers;
     [self.window addSubview:rootController.view];
 	[self.window makeKeyAndVisible];

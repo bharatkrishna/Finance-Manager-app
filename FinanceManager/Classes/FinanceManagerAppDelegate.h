@@ -23,6 +23,7 @@
 	UIImageView *splashView;
 	UINavigationController *nv1;
 	UINavigationController *nv2;
+	UINavigationController *nv3;
 	SwitchViewController1 *sv1;
 
 }
@@ -31,6 +32,7 @@
 @property (nonatomic, retain) IBOutlet UITabBarController *rootController;
 @property (nonatomic, retain) IBOutlet UINavigationController *nv1;
 @property (nonatomic, retain) IBOutlet UINavigationController *nv2;
+@property (nonatomic, retain) IBOutlet UINavigationController *nv3;
 @property (nonatomic, retain) IBOutlet SwitchViewController1 *sv1;
 @property (nonatomic, retain) NSMutableArray *items;
 @property (nonatomic, retain) NSMutableArray *budgetitems;
