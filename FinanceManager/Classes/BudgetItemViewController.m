@@ -49,7 +49,8 @@
 - (void)viewDidLoad {
 	
     [super viewDidLoad];
-	[menuItemDetails setText:[NSString stringWithFormat:@"\n\n\nYear: %@\nMonth: \n%@\nRent(purple): %@\nUtilities(red): %@\nFood(orange): %@\nLiving(yellow): %@\nGas(green): %@\nOther(blue): %@", 
+	self.view.backgroundColor=[UIColor whiteColor];
+	[menuItemDetails setText:[NSString stringWithFormat:@"\n\nYear: %@ Month: %@\nRent(purple): \$%@ Utilities(red): \$%@ Food(orange): \$%@ Living(yellow): \$%@ Gas(green): \$%@ Other(blue): \$%@", 
 							  [menuItem year], 
 							  [menuItem month], 
 							  [menuItem rent],
@@ -74,6 +75,7 @@
 							 [UIColor blueColor], nil];
     myPieClass.radius=100;
     [self.view addSubview:myPieClass];
+	//self.view.subviews.backgroundColor=[UIColor whiteColor];
     
     
   

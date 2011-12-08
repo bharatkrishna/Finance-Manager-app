@@ -160,10 +160,14 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -184,10 +188,14 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -206,10 +214,14 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -228,10 +240,14 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -246,14 +262,18 @@
 					<object class="IBUITextField" id="437663703">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{228, 108}, {66, 31}}</string>
+						<string key="NSFrame">{{229, 108}, {66, 31}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -355,10 +375,14 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">0.00</string>
+						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
+						<string key="IBUIPlaceholder">0.00</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -600,10 +624,8 @@
 							<reference ref="847589669"/>
 							<reference ref="425212252"/>
 							<reference ref="167773482"/>
-							<reference ref="981286066"/>
 							<reference ref="1018070995"/>
 							<reference ref="105761057"/>
-							<reference ref="437663703"/>
 							<reference ref="446277302"/>
 							<reference ref="974177479"/>
 							<reference ref="836235265"/>
@@ -615,6 +637,8 @@
 							<reference ref="1026253446"/>
 							<reference ref="895415433"/>
 							<reference ref="969636134"/>
+							<reference ref="981286066"/>
+							<reference ref="437663703"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -684,11 +708,6 @@
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">14</int>
-						<reference key="object" ref="981286066"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
 						<reference key="object" ref="437663703"/>
 						<reference key="parent" ref="191373211"/>
@@ -726,6 +745,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">43</int>
 						<reference key="object" ref="567941721"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">14</int>
+						<reference key="object" ref="981286066"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -801,11 +825,11 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABCpgAAw4CAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABCpgAAwz8AAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDYwAAw1gAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABDZQAAwwkAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">

@@ -43,6 +43,133 @@
 
 // To save the contents of the textbox to the database
 -(IBAction)saveBudget {
+	
+	NSCharacterSet *decimalSet = [NSCharacterSet decimalDigitCharacterSet];
+
+	BOOL rentValid = ([[[rentField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+						  [[[rentField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL utilityValid = ([[[utilityField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+					  [[[utilityField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL foodValid = ([[[foodField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+					  [[[foodField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL livingValid = ([[[livingField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+					  [[[livingField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL gasValid = ([[[gasField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+						[[[gasField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL otherValid = ([[[otherField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+						[[[otherField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	BOOL yearValid = ([[[yearField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""]);
+
+	if ([[monthField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please fill out the month field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if ([[yearField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please fill out the year field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+
+	else if(!utilityValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Utility field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!foodValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Food field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!rentValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Rent field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!livingValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Rent field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!gasValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Gas field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!otherValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Other field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!yearValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Year field"
+													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		[alert show];
+		[alert release];
+	}
+
+	else{
+		NSString *flag;
+		sqlite3 *database;
+		NSString *databasePath;
+		NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+		NSString *documentDir = [documentPaths objectAtIndex:0];
+		databasePath = [documentDir stringByAppendingPathComponent:@"database1.sql"];
+		NSLog(@"111111");
+		if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+			NSString *sqlStatement = [NSString stringWithFormat:@"select * from Budgets where month=\'%@\' and year=\'%@\'",[monthField text],[yearField text]];
+			sqlite3_stmt *compiledStatement;
+			NSLog(@"22222");
+			NSLog(@"open: %s", sqlite3_errmsg(database));
+			if (sqlite3_prepare_v2(database, [sqlStatement UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
+				NSLog(@"prepare: %s", sqlite3_errmsg(database));
+				while (sqlite3_step(compiledStatement) == SQLITE_ROW) {
+					flag=@"true";
+					NSLog(@"FLAG %@", flag);
+				}
+				NSLog(@"done stepping: %s %d", sqlite3_errmsg(database), sqlite3_errcode(database));
+			}
+			sqlite3_finalize(compiledStatement);
+			NSLog(@"closing: %s", sqlite3_errmsg(database));
+		}
+		sqlite3_close(database);
+		if(flag==@"true"){
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Budget for month:%@ year:%@ has already been existed. Please add budget for other date",
+								  [monthField text],[yearField text]]
+														   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+			[alert show];
+			[alert release];
+		}
+		else{
+		
+		   
+		
+		if ([[rentField text] length]==0){
+			[rentField setText:@"0.00"];
+		}
+		if ([[utilityField text] length]==0){
+			[utilityField setText:@"0.00"];
+		}
+		if ([[foodField text] length]==0){
+			[foodField setText:@"0.00"];
+		}
+		if ([[livingField text] length]==0){
+			[livingField setText:@"0.00"];
+		}
+		if ([[gasField text] length]==0){
+			[gasField setText:@"0.00"];
+		}
+		if ([[otherField text] length]==0){
+			[otherField setText:@"0.00"];
+		}
 	newBudget = [[Budget alloc] initWithMonth:[monthField text] year:[yearField text] rent:[rentField text] utilities:[utilityField text]
 										 food:[foodField text] living:[livingField text] gas:[gasField text] other:[otherField text]];
 	FinanceManagerAppDelegate *delegate = (FinanceManagerAppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -56,6 +183,8 @@
 										  otherButtonTitles: nil];
 	[alert show];
 	[alert release];
+		}
+	}
 }
 /*
 // Override to allow orientations other than the default portrait orientation.
