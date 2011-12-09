@@ -1,7 +1,7 @@
 TFinanceManager
 v7
 r0
-t345096906.671152
+t345099769.179993
 cCheck dependencies
 cProcessInfoPlistFile "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Info.plist" FinanceManager-Info.plist
 cCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/MainWindow.xib"
@@ -2192,9 +2192,9 @@ t1323403515
 s21056
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/BudgetItemViewController.xib
-c000000004EE188FB000000000000467F
-t1323403515
-s18047
+c000000004EE19625000000000000A8E0
+t1323406885
+s43232
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Calendar_icon.png
 c000000004EE188FB000000000000107F
@@ -2247,17 +2247,17 @@ s809
 i"BudgetCell.h"
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.h
-c000000004EE188FB000000000000024A
-t1323403515
-s586
+c000000004EE192C2000000000000046F
+t1323406018
+s1135
 i<UIKit/UIKit.h>
 i"PieClassAntiAlias.h"
 i"Budget.h"
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m
-c000000004EE188FB0000000000000CBE
-t1323403515
-s3262
+c000000004EE194C00000000000000D7D
+t1323406528
+s3453
 i"BudgetItemViewController.h"
 i"Budget.h"
 i"PieClass.h"
@@ -2338,15 +2338,15 @@ i<UIKit/UIKit.h>
 i"Budget.h"
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m
-c000000004EE18A260000000000002F0E
-t1323403814
-s12046
+c000000004EE194300000000000002F0A
+t1323406384
+s12042
 i"SetBudgetViewController.h"
 i"FinanceManagerAppDelegate.h"
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.xib
-c000000004EE188FB000000000000DE8C
-t1323403515
+c000000004EE193D0000000000000DE8C
+t1323406288
 s56972
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SwitchViewController1.h
@@ -2371,9 +2371,9 @@ i<UIKit/UIKit.h>
 i"FinanceManagerAppDelegate.h"
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m
-c000000004EE188FB0000000000001EE3
-t1323403515
-s7907
+c000000004EE196770000000000001EEF
+t1323406967
+s7919
 i"ViewBudgetViewController.h"
 i"FinanceManagerAppDelegate.h"
 i"Budget.h"
@@ -2443,11 +2443,11 @@ t1323403515
 s133491
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app
-t1323404106
+t1323406969
 s816
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM
-t1323404106
+t1323406969
 s102
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/162-receipt.png
@@ -2467,8 +2467,8 @@ t1323403515
 s3668
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/BudgetItemViewController.nib
-t1323403515
-s1965
+t1323406887
+s6076
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Calendar_icon.png
 t1323403515
@@ -2483,8 +2483,8 @@ t1323403515
 s178924
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager
-t1323404106
-s127904
+t1323406969
+s134812
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Green dollar.png
 t1323403515
@@ -2507,7 +2507,7 @@ t1323403515
 s16585
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/SetBudgetViewController.nib
-t1323403515
+t1323406441
 s8505
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/ViewBudgetViewController.nib
@@ -2543,8 +2543,8 @@ t1323403532
 s42140
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o
-t1323403533
-s49308
+t1323406611
+s57500
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/CustomCell.o
 t1323403532
@@ -2572,16 +2572,16 @@ t1323403533
 s44212
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o
-t1323403821
-s98624
+t1323406441
+s98616
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SwitchViewController1.o
 t1323403532
 s55636
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o
-t1323403533
-s66396
+t1323406969
+s65796
 
 N/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewTransactionViewController.o
 t1323404106
@@ -3784,7 +3784,7 @@ s923
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies345096906#345096906#0(191"[WARN]Warning: Multiple build commands for output file /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Green dollar.png1(22@184"Warning: Multiple build commands for output file /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Green dollar.png345096906#18446744073709551615#0#0(1@0"0(0#1#0"8620621152#0"0#
+lSLF07#2@18"Check dependencies345099768#345099768#0(191"[WARN]Warning: Multiple build commands for output file /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Green dollar.png1(22@184"Warning: Multiple build commands for output file /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/Green dollar.png345099768#18446744073709551615#0#0(1@0"0(0#1#0"8618752832#0"0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/AddTransactionViewController.o "/Users/User/Desktop/FinanceManager 2/Classes/AddTransactionViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s344739549.641244
@@ -4099,8 +4099,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/Classes/BudgetCell.m345079855#345079856#0(0"0(0#0#78"/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/Classes/BudgetCell.m8600600864#2283"    cd /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap -I/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap -I/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap -iquote /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap -F/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator -I/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include -I/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386 -I/Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-bnezkpfjamudnvdojwoytkbrhkng/FinanceManager_Prefix.pch -c /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/Classes/BudgetCell.m -o /Users/iitcct7/Desktop/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetCell.o0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s345096332.982431
-e345096333.119964
+s345099411.691002
+e345099411.857967
 r1
 xCompileC
 xbuild/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o
@@ -4109,13 +4109,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-o/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'
-lSLF07#2@114"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096332#345096333#0(912"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m:53:55: warning: unknown escape sequence '\$'6(22@28"Unknown escape sequence '\$'345096333#0#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(22@28"Unknown escape sequence '\$'345096333#152#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(22@28"Unknown escape sequence '\$'345096333#304#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(22@28"Unknown escape sequence '\$'345096333#456#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(22@28"Unknown escape sequence '\$'345096333#608#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(22@28"Unknown escape sequence '\$'345096333#760#152#0(6@106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345096315#53#0#53#0#0"0(0#0#106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m8595219552#2487"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o"0#
+lSLF07#2@114"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m345099411#345099411#0(0"0(0#0#106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m8620099520#2487"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/BudgetItemViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o"0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/BudgetItemViewController.o "/Users/iitcct7/Desktop/Final Project/FinanceManager/Classes/BudgetItemViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s344792187.175031
@@ -4745,8 +4739,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/User/Desktop/FinanceManager 2/Classes/SetBudgetViewController.m344739550#344739550#0(0"0(0#0#70"/Users/User/Desktop/FinanceManager 2/Classes/SetBudgetViewController.m8610054944#2100"    cd "/Users/User/Desktop/FinanceManager 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator" "-I/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/include" "-I/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/SZ/SZnyCXP+GDaP7FMZ0uPuKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-geyulnypwfqsdfhcytakhulhkbxx/FinanceManager_Prefix.pch -c "/Users/User/Desktop/FinanceManager 2/Classes/SetBudgetViewController.m" -o "/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o"0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s345096620.885584
-e345096621.111410
+s345099241.659903
+e345099241.910344
 r1
 xCompileC
 xbuild/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o
@@ -4755,7 +4749,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@113"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m345096620#345096621#0(0"0(0#0#105"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m8620589472#2485"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o"0#
+lSLF07#2@113"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m345099241#345099241#0(0"0(0#0#105"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m8598269824#2485"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o"0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SetBudgetViewController.o "/Users/iitcct7/Desktop/Final Project/FinanceManager/Classes/SetBudgetViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s344792186.660134
@@ -4969,8 +4963,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/iitcct7/Desktop/FinanceManager/Classes/SwitchViewController1.m344541951#344541951#0(0"0(0#0#69"/Users/iitcct7/Desktop/FinanceManager/Classes/SwitchViewController1.m8614244416#2085"    cd /Users/iitcct7/Desktop/FinanceManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap -I/Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap -I/Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap -iquote /Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap -F/Users/iitcct7/Desktop/FinanceManager/build/Debug-iphonesimulator -I/Users/iitcct7/Desktop/FinanceManager/build/Debug-iphonesimulator/include -I/Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386 -I/Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-axsizyrnanfdbageadyqevpnkrxn/FinanceManager_Prefix.pch -c /Users/iitcct7/Desktop/FinanceManager/Classes/SwitchViewController1.m -o /Users/iitcct7/Desktop/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/SwitchViewController1.o0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s345096332.983691
-e345096333.121561
+s345099768.916207
+e345099769.091105
 r1
 xCompileC
 xbuild/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o
@@ -4979,7 +4973,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m345096332#345096333#0(0"0(0#0#106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m8611532320#2487"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o"0#
+lSLF07#2@114"Compile /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m345099768#345099769#0(0"0(0#0#106"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m8620120704#2487"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-generated-files.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-own-target-headers.hmap" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-all-target-headers.hmap" -iquote "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/FinanceManager-project-headers.hmap" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/include" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources/i386" "-I/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/DerivedSources" -include /var/folders/hj/hjvfotCBH3CYHQfjVZkMb++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FinanceManager_Prefix-djkkotlmadekpdbkvlzabcqkhfmo/FinanceManager_Prefix.pch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewBudgetViewController.m" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o"0#
 
 CCompileC build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/ViewBudgetViewController.o "/Users/iitcct7/Desktop/Final Project/FinanceManager/Classes/ViewBudgetViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s344792187.176230
@@ -5318,13 +5312,23 @@ CCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceMan
 r0
 
 CCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/BudgetItemViewController.xib"
-r0
+s345099687.111791
+e345099687.625188
+r1
+xCompileXIB
+x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/BudgetItemViewController.xib
+lSLF07#2@39"CompileXIB BudgetItemViewController.xib345099687#345099687#0(0"0(0#0#100"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/BudgetItemViewController.xib8617893760#710"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/BudgetItemViewController.nib" "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/BudgetItemViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/AddTransactionViewController.xib"
 r0
 
 CCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.xib"
-r0
+s345099241.107430
+e345099241.659277
+r1
+xCompileXIB
+x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.xib
+lSLF07#2@46"CompileXIB Classes/SetBudgetViewController.xib345099241#345099241#0(0"0(0#0#107"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.xib8594218112#716"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/SetBudgetViewController.nib" "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/SetBudgetViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CCompileXIB "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/ViewTransactionViewController.xib"
 r0
@@ -5686,13 +5690,13 @@ x/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager
 lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/FinanceManager.app.dSYM build/Debug-iphonesimulator/FinanceManager.app/FinanceManager344739550#344739550#0(0"0(0#0#98"/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager8608979328#404"    cd "/Users/User/Desktop/FinanceManager 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager" -o "/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app.dSYM"0#
 
 CGenerateDSYMFile "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM" "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager"
-s345096906.622371
-e345096906.667401
+s345099769.131972
+e345099769.176415
 r1
 xGenerateDSYMFile
 x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM
 x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/FinanceManager.app.dSYM build/Debug-iphonesimulator/FinanceManager.app/FinanceManager345096906#345096906#0(0"0(0#0#133"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager8619432832#509"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM"0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/FinanceManager.app.dSYM build/Debug-iphonesimulator/FinanceManager.app/FinanceManager345099769#345099769#0(0"0(0#0#133"/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager8619977088#509"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager" -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM"0#
 
 CGenerateDSYMFile "/Users/iitcct7/Desktop/Final Project/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app.dSYM" "/Users/iitcct7/Desktop/Final Project/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager"
 s344792187.676430
@@ -5768,14 +5772,14 @@ xi386
 lSLF07#2@103"Link /Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager344739550#344739550#0(0"0(0#0#0"8606642688#945"    cd "/Users/User/Desktop/FinanceManager 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator" "-F/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator" -filelist "/Users/User/Desktop/FinanceManager 2/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/FinanceManager.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o "/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager"0#
 
 CLd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager" normal i386
-s345096906.581843
-e345096906.622259
+s345099769.091204
+e345099769.131861
 r1
 xLd
 x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager
 xnormal
 xi386
-lSLF07#2@138"Link /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager345096906#345096906#0(0"0(0#0#0"8619757568#1120"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" -filelist "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/FinanceManager.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager"0#
+lSLF07#2@138"Link /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager345099769#345099769#0(0"0(0#0#0"8621035168#1120"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" "-F/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator" -filelist "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/FinanceManager.build/Debug-iphonesimulator/FinanceManager.build/Objects-normal/i386/FinanceManager.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -o "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager"0#
 
 CLd "/Users/iitcct7/Desktop/Final Project/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app/FinanceManager" normal i386
 s344792187.315028
@@ -6012,12 +6016,12 @@ x/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager
 lSLF07#2@89"Touch /Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app344739550#344739550#0(0"0(0#0#0"8610064064#285"    cd "/Users/User/Desktop/FinanceManager 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/User/Desktop/FinanceManager 2/build/Debug-iphonesimulator/FinanceManager.app"0#
 
 CTouch "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app"
-s345096906.667489
-e345096906.671107
+s345099769.176508
+e345099769.179947
 r1
 xTouch
 x/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app
-lSLF07#2@124"Touch /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app345096906#345096906#0(0"0(0#0#0"8616966304#355"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app"0#
+lSLF07#2@124"Touch /Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app345099769#345099769#0(0"0(0#0#0"8620250400#355"    cd "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app"0#
 
 CTouch "/Users/iitcct7/Desktop/Final Project/FinanceManager/build/Debug-iphonesimulator/FinanceManager.app"
 s344792187.810281

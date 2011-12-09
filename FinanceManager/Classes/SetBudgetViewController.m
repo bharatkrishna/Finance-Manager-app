@@ -37,9 +37,6 @@
 	[foodField resignFirstResponder];
 	[otherField resignFirstResponder];
 }
-	
-
-
 
 // To save the contents of the textbox to the database
 -(IBAction)saveBudget {

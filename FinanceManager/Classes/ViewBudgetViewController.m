@@ -204,7 +204,7 @@ NSLog(@"no of items %d", [budgetItems count]);
 	Budget *budgetItem = [budgetItems objectAtIndex:[indexPath row]];
 	BudgetItemViewController *mivc = [[BudgetItemViewController alloc] initWithMenuItem:budgetItem nibName:@"BudgetItemViewController" bundle:nil];
 	[self.navigationController pushViewController:mivc animated:YES];
-	[self setTitle:@"Back"];
+	self.navigationItem.title = @"Back";
 	[mivc release];
 	
 }

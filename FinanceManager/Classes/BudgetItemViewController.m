@@ -13,7 +13,7 @@
 @implementation BudgetItemViewController
 
 @synthesize menuItem;
-@synthesize menuItemDetails;
+@synthesize yearLabel, monthLabel, rentLabel, foodLabel, livingLabel, utilitiesLabel, gasLabel, otherLabel;
 
 - (id)initWithMenuItem:(Budget *)m nibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -50,20 +50,18 @@
 	
     [super viewDidLoad];
 	self.view.backgroundColor=[UIColor whiteColor];
-	[menuItemDetails setText:[NSString stringWithFormat:@"\n\nYear: %@ Month: %@\nRent(purple): \$%@ Utilities(red): \$%@ Food(orange): \$%@ Living(yellow): \$%@ Gas(green): \$%@ Other(blue): \$%@", 
-							  [menuItem year], 
-							  [menuItem month], 
-							  [menuItem rent],
-							  [menuItem utilities],
-							 [menuItem food],
-							  [menuItem living],
-							  [menuItem gas],
-							  [menuItem other]]];
 	
-
+	[yearLabel setText:[menuItem year]];
+	[monthLabel setText:[menuItem month]];
+	[utilitiesLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem utilities]]];
+	[rentLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem rent]]];
+	[foodLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem food]]];
+	[livingLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem living]]];
+	[gasLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem gas]]];
+	[otherLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem other]]];
 
     
-    PieClass *myPieClass=[[PieClass alloc]initWithFrame:CGRectMake(0, 210, 320, 230)];
+    PieClass *myPieClass=[[PieClass alloc]initWithFrame:CGRectMake(55, 190, 320, 230)];
     myPieClass.itemArray=[[NSArray alloc]initWithObjects:[menuItem rent],[menuItem utilities],[menuItem food],
 						  [menuItem living],[menuItem gas], [menuItem other], nil];
     myPieClass.myColorArray=[[NSArray alloc]initWithObjects:
@@ -75,11 +73,7 @@
 							 [UIColor blueColor], nil];
     myPieClass.radius=100;
     [self.view addSubview:myPieClass];
-	//self.view.subviews.backgroundColor=[UIColor whiteColor];
-    
-    
-  
-    
+	//self.view.subviews.backgroundColor=[UIColor whiteColor];    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	
