@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,20 +269,19 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>45F580A814886A2700D847A4</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
+									<integer>11</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 17}, {278, 664}}</string>
+							<string>{{0, 0}, {278, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -310,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ViewTransactionViewController.m</string>
+								<string>Item.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,38 +324,43 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ViewTransactionViewController.m</string>
+										<string>Item.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>459ED06E1491829200D6A682</string>
+										<string>458B697A149186C800EBA914</string>
 										<key>history</key>
 										<array>
 											<string>45F57F761488454400D847A4</string>
-											<string>45F57F8F148847D200D847A4</string>
-											<string>45F580741488649D00D847A4</string>
 											<string>45F580AA14886A3400D847A4</string>
 											<string>45F580B31488746D00D847A4</string>
 											<string>45F580B61488746D00D847A4</string>
 											<string>459DF5A0148965890064A308</string>
 											<string>4500BFFF148970C70078094B</string>
-											<string>4500C000148970C70078094B</string>
-											<string>4500C001148970C70078094B</string>
-											<string>4500C002148970C70078094B</string>
-											<string>4500C003148970C70078094B</string>
-											<string>4500C04514897BC40078094B</string>
-											<string>4500C04614897BC40078094B</string>
-											<string>4500C04714897BC40078094B</string>
 											<string>4500C04E14897BE40078094B</string>
 											<string>45271E40148D3782004C409F</string>
-											<string>45271E41148D3782004C409F</string>
-											<string>45271E42148D3782004C409F</string>
-											<string>45EA93E0148D3D0C0073F714</string>
-											<string>45599680148D7D0A003DA7A9</string>
-											<string>45599681148D7D0A003DA7A9</string>
-											<string>45599682148D7D0A003DA7A9</string>
 											<string>45599683148D7D0A003DA7A9</string>
-											<string>459ED04D1491805200D6A682</string>
+											<string>458B6965149186C800EBA914</string>
+											<string>458B6966149186C800EBA914</string>
+											<string>458B6967149186C800EBA914</string>
+											<string>458B6968149186C800EBA914</string>
+											<string>458B6969149186C800EBA914</string>
+											<string>458B696A149186C800EBA914</string>
+											<string>458B696B149186C800EBA914</string>
+											<string>458B696C149186C800EBA914</string>
+											<string>458B696D149186C800EBA914</string>
+											<string>458B696E149186C800EBA914</string>
+											<string>458B696F149186C800EBA914</string>
+											<string>458B6970149186C800EBA914</string>
+											<string>458B6971149186C800EBA914</string>
+											<string>458B6972149186C800EBA914</string>
+											<string>458B6973149186C800EBA914</string>
+											<string>458B6974149186C800EBA914</string>
+											<string>458B6975149186C800EBA914</string>
+											<string>458B6976149186C800EBA914</string>
+											<string>458B6977149186C800EBA914</string>
+											<string>458B6978149186C800EBA914</string>
+											<string>458B6979149186C800EBA914</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -368,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {920, 388}}</string>
+								<string>{{0, 0}, {920, 379}}</string>
 								<key>RubberWindowFrame</key>
 								<string>60 55 1220 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>388pt</string>
+							<string>379pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -388,14 +392,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 393}, {920, 289}}</string>
+								<string>{{0, 384}, {920, 298}}</string>
 								<key>RubberWindowFrame</key>
 								<string>60 55 1220 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>289pt</string>
+							<string>298pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -414,9 +418,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>459ED069149181C700D6A682</string>
+				<string>458B6961149184F400EBA914</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>459ED06A149181C700D6A682</string>
+				<string>458B6962149184F400EBA914</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -554,8 +558,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>45BA5A9114871B7300098F36</string>
 		<string>/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/FinanceManager.xcodeproj</string>
 	</array>
@@ -637,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>45BA5A9114871B7300098F36</string>
-				<string>459ED06B149181C700D6A682</string>
+				<string>458B6963149184F400EBA914</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

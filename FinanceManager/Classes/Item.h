@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
-//#import "StudentRecordsAppDelegate.h"
+
 
 @interface Item : NSObject {
 	
