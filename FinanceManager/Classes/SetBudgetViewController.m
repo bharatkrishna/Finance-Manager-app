@@ -62,56 +62,56 @@
 
 	if ([[monthField text] length]==0){
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please fill out the month field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if ([[yearField text] length]==0){
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please fill out the year field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 
 	else if(!utilityValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Utility field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Utility field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!foodValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Food field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Food field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!rentValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Rent field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Rent field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!livingValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Rent field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Rent field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!gasValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Gas field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Gas field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!otherValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Other field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Other field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
 	else if(!yearValid){
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only no is allowed in Year field"
-													   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Year field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 		[alert show];
 		[alert release];
 	}
@@ -142,9 +142,9 @@
 		}
 		sqlite3_close(database);
 		if(flag==@"true"){
-			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Budget for month:%@ year:%@ has already been existed. Please add budget for other date",
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Budget for month:%@ year:%@ has already exists. Please select a different month & year",
 								  [monthField text],[yearField text]]
-														   delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+														   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 			[alert show];
 			[alert release];
 		}

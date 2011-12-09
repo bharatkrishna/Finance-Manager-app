@@ -129,8 +129,9 @@
 	}
     
     // Configure the cell...
-    
-	Item  *expItem = (Item *)[items objectAtIndex:[indexPath row]];
+    NSUInteger count = [items count];
+	NSLog(@"Items count:%d",count);
+	Item  *expItem = (Item *)[items objectAtIndex:(count-[indexPath row]-1)]; //to display items in reverse order(latest first order)
 	//[[cell textLabel] setText:[expItem description]];
 	[[cell descriptionLabel] setText:[expItem description]];
 	[[cell amountLabel] setText:[expItem amount]];
