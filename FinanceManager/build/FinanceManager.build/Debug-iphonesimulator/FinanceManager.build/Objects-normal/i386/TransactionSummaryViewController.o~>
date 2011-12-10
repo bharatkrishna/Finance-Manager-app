@@ -1,0 +1,2 @@
+/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/TransactionSummaryViewController.m: In function '-[TransactionSummaryViewController tableView:didSelectRowAtIndexPath:]':
+/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/Classes/TransactionSummaryViewController.m:163: warning: unused variable 'month'

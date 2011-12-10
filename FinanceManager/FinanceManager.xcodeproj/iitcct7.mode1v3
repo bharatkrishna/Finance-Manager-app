@@ -274,13 +274,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>29</integer>
+									<integer>32</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 310}, {278, 664}}</string>
+							<string>{{0, 0}, {278, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TransactionSummaryViewController.m</string>
+								<string>ExpenseItemViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,21 +325,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TransactionSummaryViewController.m</string>
+										<string>ExpenseItemViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>451D0E441493B67000F9A0A1</string>
+										<string>451D0EC91493C16500F9A0A1</string>
 										<key>history</key>
 										<array>
 											<string>45F580B31488746D00D847A4</string>
 											<string>459DF5A0148965890064A308</string>
-											<string>4500BFFF148970C70078094B</string>
 											<string>4500C04E14897BE40078094B</string>
-											<string>458B696C149186C800EBA914</string>
 											<string>45B030821491C32000024ECD</string>
-											<string>45B0308F1491C3D500024ECD</string>
-											<string>45B030901491C3D500024ECD</string>
 											<string>45B030AB1491C4B900024ECD</string>
 											<string>45B030AD1491C4B900024ECD</string>
 											<string>45B030C01491C81B00024ECD</string>
@@ -350,25 +346,31 @@
 											<string>45B030F01491CC4200024ECD</string>
 											<string>45B031111491CDF900024ECD</string>
 											<string>45DA4A96149308010030E7FA</string>
-											<string>45DA4A97149308010030E7FA</string>
 											<string>45DA4A98149308010030E7FA</string>
 											<string>45DA4A99149308010030E7FA</string>
 											<string>45DA4A9A149308010030E7FA</string>
-											<string>45DA4A9C149308010030E7FA</string>
-											<string>45DA4A9D149308010030E7FA</string>
-											<string>45DA4A9E149308010030E7FA</string>
 											<string>45DA4A9F149308010030E7FA</string>
 											<string>45DA4AE414930C010030E7FA</string>
 											<string>45DA4AE514930C010030E7FA</string>
 											<string>45DA4AE614930C010030E7FA</string>
-											<string>45DA4AE714930C010030E7FA</string>
 											<string>45DA4B47149311530030E7FA</string>
-											<string>451B061A1493A5FC0019CB04</string>
-											<string>451B062C1493A85E0019CB04</string>
-											<string>451B06361493A9890019CB04</string>
-											<string>451D0DDB1493AFA000F9A0A1</string>
-											<string>451D0E1D1493B56100F9A0A1</string>
-											<string>451D0E211493B5A900F9A0A1</string>
+											<string>451D0E501493B84000F9A0A1</string>
+											<string>451D0E831493BE8500F9A0A1</string>
+											<string>451D0E841493BE8500F9A0A1</string>
+											<string>451D0E851493BE8500F9A0A1</string>
+											<string>451D0E861493BE8500F9A0A1</string>
+											<string>451D0E871493BE8500F9A0A1</string>
+											<string>451D0E881493BE8500F9A0A1</string>
+											<string>451D0E8B1493BE8500F9A0A1</string>
+											<string>451D0EA61493BFD100F9A0A1</string>
+											<string>451D0EBA1493C14700F9A0A1</string>
+											<string>451D0EBB1493C14700F9A0A1</string>
+											<string>451D0EBC1493C14700F9A0A1</string>
+											<string>451D0EBD1493C14700F9A0A1</string>
+											<string>451D0EBE1493C14700F9A0A1</string>
+											<string>451D0EBF1493C14700F9A0A1</string>
+											<string>451D0EC01493C14700F9A0A1</string>
+											<string>451D0EC11493C14700F9A0A1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -566,7 +568,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>451D0E451493B67000F9A0A1</string>
 		<string>451D0E3F1493B65200F9A0A1</string>
 		<string>451D0E361493B5CD00F9A0A1</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -596,7 +597,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>TransactionSummaryViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -613,6 +614,8 @@
 							<string>440pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

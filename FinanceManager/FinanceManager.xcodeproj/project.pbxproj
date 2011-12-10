@@ -15,6 +15,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		4500C04214897BAB0078094B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4500C04114897BAB0078094B /* Default.png */; };
 		451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */ = {isa = PBXBuildFile; fileRef = 451D0DD91493AF9A00F9A0A1 /* database1.sql */; };
+		451D0E681493B91900F9A0A1 /* ExpenseItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D0E661493B91900F9A0A1 /* ExpenseItemViewController.m */; };
+		451D0E691493B91900F9A0A1 /* ExpenseItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */; };
 		459DF5AC148966CB0064A308 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 459DF5AB148966CB0064A308 /* background.png */; };
 		45BA5A85148717A100098F36 /* AddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5A83148717A100098F36 /* AddTransactionViewController.m */; };
 		45BA5A86148717A100098F36 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5A84148717A100098F36 /* AddTransactionViewController.xib */; };
@@ -61,6 +63,9 @@
 		32CA4F630368D1EE00C91783 /* FinanceManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceManager_Prefix.pch; sourceTree = "<group>"; };
 		4500C04114897BAB0078094B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		451D0DD91493AF9A00F9A0A1 /* database1.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database1.sql; sourceTree = "<group>"; };
+		451D0E651493B91900F9A0A1 /* ExpenseItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseItemViewController.h; sourceTree = "<group>"; };
+		451D0E661493B91900F9A0A1 /* ExpenseItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseItemViewController.m; sourceTree = "<group>"; };
+		451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExpenseItemViewController.xib; path = Classes/ExpenseItemViewController.xib; sourceTree = "<group>"; };
 		459DF5AB148966CB0064A308 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		45BA5A82148717A100098F36 /* AddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionViewController.h; sourceTree = "<group>"; };
 		45BA5A83148717A100098F36 /* AddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionViewController.m; sourceTree = "<group>"; };
@@ -158,6 +163,8 @@
 				45DA4A831493052B0030E7FA /* TransactionSummaryViewController.m */,
 				45DA4AD414930A020030E7FA /* TransactionSummaryCell.h */,
 				45DA4AD514930A020030E7FA /* TransactionSummaryCell.m */,
+				451D0E651493B91900F9A0A1 /* ExpenseItemViewController.h */,
+				451D0E661493B91900F9A0A1 /* ExpenseItemViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 				451D0DD91493AF9A00F9A0A1 /* database1.sql */,
 				45F580A814886A2700D847A4 /* Images */,
 				CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */,
+				451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */,
 				45DA4A841493052B0030E7FA /* TransactionSummaryViewController.xib */,
 				CE824B40148C5130000C1763 /* BudgetCell.xib */,
 				CE824B41148C5130000C1763 /* BudgetItemViewController.xib */,
@@ -307,6 +315,7 @@
 				45DA4A861493052B0030E7FA /* TransactionSummaryViewController.xib in Resources */,
 				45DA4AD814930A1D0030E7FA /* TransactionSummaryCell.xib in Resources */,
 				451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */,
+				451D0E691493B91900F9A0A1 /* ExpenseItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +342,7 @@
 				CE823EAF148EE0B9000E898F /* PieClassAntiAlias.m in Sources */,
 				45DA4A851493052B0030E7FA /* TransactionSummaryViewController.m in Sources */,
 				45DA4AD614930A020030E7FA /* TransactionSummaryCell.m in Sources */,
+				451D0E681493B91900F9A0A1 /* ExpenseItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

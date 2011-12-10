@@ -10,54 +10,22 @@
 #import "FinanceManagerAppDelegate.h"
 #import "Item.h"
 #import "TransactionSummaryCell.h"
+#import "ExpenseItemViewController.h"
 
 @implementation TransactionSummaryViewController
-@synthesize transactionItems,montharray,yearString;
+@synthesize montharray,yearString;
 
 #pragma mark -
 #pragma mark View lifecycle
-
--(void) loadItemsFromDatabase:(NSString *)databasePath {
-	sqlite3 *database;
-	
-	transactionItems = [[NSMutableArray alloc] init];
-	
-	if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
-		NSString *sqlStatement = @"SELECT * FROM Expenses";
-		sqlite3_stmt *compiledStatement;
-		NSLog(@"open: %s", sqlite3_errmsg(database));
-		if (sqlite3_prepare_v2(database, [sqlStatement UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
-			NSLog(@"prepare: %s", sqlite3_errmsg(database));
-			while (sqlite3_step(compiledStatement) == SQLITE_ROW) {
-				//reading data
-				NSLog(@"stepping through: %@", [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)]);
-				NSLog(@"stepping: %s %d", sqlite3_errmsg(database), sqlite3_errcode(database));
-				int aIdent = sqlite3_column_int(compiledStatement, 0);
-				NSString *aDescription = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
-				NSString *aAmount = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 2)];
-				NSString *aTag = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];
-				NSString *aDate = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 4)];
-				//make menu item
-				Item *item = [[Item alloc] initWithId:aIdent description:aDescription amount:aAmount tag:aTag date:aDate];
-				[transactionItems addObject:item];
-				[item release];
-			}
-			NSLog(@"done stepping: %s %d", sqlite3_errmsg(database), sqlite3_errcode(database));
-		}
-		sqlite3_finalize(compiledStatement);
-		NSLog(@"closing: %s", sqlite3_errmsg(database));
-	}
-	sqlite3_close(database);
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	appDelegate = (FinanceManagerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	transactionItems = [appDelegate items];
-	NSLog(@"no of items %d", [transactionItems count]);
+	//appDelegate = (FinanceManagerAppDelegate *)[[UIApplication sharedApplication] delegate];
+	//transactionItems = [appDelegate items];
+	//NSLog(@"no of items %d", [transactionItems count]);
 	montharray= [[NSArray alloc] initWithObjects: @"01", @"02", @"03", @"04", @"05", @"06", @"07",@"08", @"09", @"10", @"11", @"12", nil];
 
 	//Testing how to get current year
@@ -76,14 +44,16 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	[self setTitle:@"Monthly Expense Records"];
-	[self.tableView reloadData];
+	//[self.tableView reloadData];
 }
 
-/*
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+	[self setTitle:@"Monthly Expense Records"];
+
 }
-*/
+
 /*
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
@@ -189,13 +159,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
+    
+	NSString *month = [montharray objectAtIndex:[indexPath row]];
+	ExpenseItemViewController *mivc = [[ExpenseItemViewController alloc] initWithNibName:@"ExpenseItemViewController" bundle:nil];
+	[self.navigationController pushViewController:mivc animated:YES];
+	//self.navigationItem.title = @"Back";
+	[mivc release];
 }
 
 
