@@ -10,25 +10,34 @@
 #import "FinanceManagerAppDelegate.h"
 
 @implementation Item
-@synthesize ident, description, amount, tag, date;
+@synthesize ident, description, amount, tag, date, month, year;
 
 -(id) initWithId:(int)i description:(NSString *)d amount:(NSString *)a tag:(NSString * )t date:(NSString * )da
 {
+	
+	NSArray* monthyear = [da componentsSeparatedByString: @"-"];
+	
 	self.ident = i;
 	self.description = d;
 	self.amount = a;
 	self.tag = t;
 	self.date = da;
+	self.month= [monthyear objectAtIndex: 0];
+	self.year = [monthyear objectAtIndex: 2];
 	
 	return self;
 }
 
 -(id) initWithDescription:(NSString *)d amount:(NSString *)a tag:(NSString * )t date:(NSString * )da
 {
+	NSArray* monthyear = [da componentsSeparatedByString: @"-"];
+	
 	self.description = d;
 	self.amount = a;
 	self.tag = t;
 	self.date = da;
+	self.month= [monthyear objectAtIndex: 0];
+	self.year = [monthyear objectAtIndex: 2];
 	
 	return self;
 }
@@ -44,7 +53,7 @@
 	if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		NSLog(@"error msg: %s", sqlite3_errmsg(database));
 		NSLog(@"%@, %@, %@,%@", self.description, self.amount, self.tag, self.date);
-		NSString *insertStatement = [NSString stringWithFormat:@"INSERT INTO Expenses (description, amount, tag, date) VALUES ('%@','%@','%@','%@')", self.description, self.amount, self.tag, self.date];
+		NSString *insertStatement = [NSString stringWithFormat:@"INSERT INTO Expenses (description, amount, tag, date, month,year) VALUES ('%@','%@','%@','%@','%@','%@')", self.description, self.amount, self.tag, self.date, self.month, self.year];
 		sqlite3_stmt *compiledStatement;
 		if (sqlite3_prepare_v2(database, [insertStatement UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
 			

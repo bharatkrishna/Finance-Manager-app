@@ -14,6 +14,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		4500C04214897BAB0078094B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4500C04114897BAB0078094B /* Default.png */; };
+		451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */ = {isa = PBXBuildFile; fileRef = 451D0DD91493AF9A00F9A0A1 /* database1.sql */; };
 		459DF5AC148966CB0064A308 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 459DF5AB148966CB0064A308 /* background.png */; };
 		45BA5A85148717A100098F36 /* AddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5A83148717A100098F36 /* AddTransactionViewController.m */; };
 		45BA5A86148717A100098F36 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5A84148717A100098F36 /* AddTransactionViewController.xib */; };
@@ -21,6 +22,10 @@
 		45BA5B7014873D3300098F36 /* SwitchViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5B6F14873D3300098F36 /* SwitchViewController1.m */; };
 		45BA5B751487411B00098F36 /* SetBudgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5B731487411B00098F36 /* SetBudgetViewController.m */; };
 		45BA5B761487411B00098F36 /* SetBudgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5B741487411B00098F36 /* SetBudgetViewController.xib */; };
+		45DA4A851493052B0030E7FA /* TransactionSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DA4A831493052B0030E7FA /* TransactionSummaryViewController.m */; };
+		45DA4A861493052B0030E7FA /* TransactionSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4A841493052B0030E7FA /* TransactionSummaryViewController.xib */; };
+		45DA4AD614930A020030E7FA /* TransactionSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DA4AD514930A020030E7FA /* TransactionSummaryCell.m */; };
+		45DA4AD814930A1D0030E7FA /* TransactionSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DA4AD714930A1D0030E7FA /* TransactionSummaryCell.xib */; };
 		45F57F4F148840CA00D847A4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F57F4E148840CA00D847A4 /* Item.m */; };
 		45F57F611488437300D847A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F57F601488437300D847A4 /* libsqlite3.dylib */; };
 		45F57F991488527000D847A4 /* ViewTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F57F971488527000D847A4 /* ViewTransactionViewController.m */; };
@@ -35,7 +40,6 @@
 		CE819B9B148C644500A064DE /* money_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE819B9A148C644500A064DE /* money_icon.jpg */; };
 		CE823EAC148EE054000E898F /* PieClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE823EAB148EE054000E898F /* PieClass.m */; };
 		CE823EAF148EE0B9000E898F /* PieClassAntiAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = CE823EAE148EE0B9000E898F /* PieClassAntiAlias.m */; };
-		CE824B3E148C50E7000C1763 /* database1.sql in Resources */ = {isa = PBXBuildFile; fileRef = CE824B3C148C50E7000C1763 /* database1.sql */; };
 		CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE824B3D148C50E7000C1763 /* Green dollar.png */; };
 		CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B40148C5130000C1763 /* BudgetCell.xib */; };
 		CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B41148C5130000C1763 /* BudgetItemViewController.xib */; };
@@ -56,6 +60,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FinanceManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceManager_Prefix.pch; sourceTree = "<group>"; };
 		4500C04114897BAB0078094B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		451D0DD91493AF9A00F9A0A1 /* database1.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database1.sql; sourceTree = "<group>"; };
 		459DF5AB148966CB0064A308 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		45BA5A82148717A100098F36 /* AddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionViewController.h; sourceTree = "<group>"; };
 		45BA5A83148717A100098F36 /* AddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionViewController.m; sourceTree = "<group>"; };
@@ -66,6 +71,12 @@
 		45BA5B721487411B00098F36 /* SetBudgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetBudgetViewController.h; sourceTree = "<group>"; };
 		45BA5B731487411B00098F36 /* SetBudgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetBudgetViewController.m; sourceTree = "<group>"; };
 		45BA5B741487411B00098F36 /* SetBudgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SetBudgetViewController.xib; path = Classes/SetBudgetViewController.xib; sourceTree = "<group>"; };
+		45DA4A821493052B0030E7FA /* TransactionSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionSummaryViewController.h; sourceTree = "<group>"; };
+		45DA4A831493052B0030E7FA /* TransactionSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionSummaryViewController.m; sourceTree = "<group>"; };
+		45DA4A841493052B0030E7FA /* TransactionSummaryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransactionSummaryViewController.xib; path = Classes/TransactionSummaryViewController.xib; sourceTree = "<group>"; };
+		45DA4AD414930A020030E7FA /* TransactionSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionSummaryCell.h; sourceTree = "<group>"; };
+		45DA4AD514930A020030E7FA /* TransactionSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionSummaryCell.m; sourceTree = "<group>"; };
+		45DA4AD714930A1D0030E7FA /* TransactionSummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionSummaryCell.xib; sourceTree = "<group>"; };
 		45F57F4D148840CA00D847A4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		45F57F4E148840CA00D847A4 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		45F57F601488437300D847A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -87,7 +98,6 @@
 		CE823EAB148EE054000E898F /* PieClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieClass.m; sourceTree = "<group>"; };
 		CE823EAD148EE0B9000E898F /* PieClassAntiAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieClassAntiAlias.h; sourceTree = "<group>"; };
 		CE823EAE148EE0B9000E898F /* PieClassAntiAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieClassAntiAlias.m; sourceTree = "<group>"; };
-		CE824B3C148C50E7000C1763 /* database1.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database1.sql; sourceTree = "<group>"; };
 		CE824B3D148C50E7000C1763 /* Green dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green dollar.png"; sourceTree = "<group>"; };
 		CE824B40148C5130000C1763 /* BudgetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetCell.xib; sourceTree = "<group>"; };
 		CE824B41148C5130000C1763 /* BudgetItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetItemViewController.xib; sourceTree = "<group>"; };
@@ -131,19 +141,23 @@
 				45F57F961488527000D847A4 /* ViewTransactionViewController.h */,
 				45F57F971488527000D847A4 /* ViewTransactionViewController.m */,
 				45F5805C1488614A00D847A4 /* CustomCell.h */,
+				45F5805D1488614A00D847A4 /* CustomCell.m */,
 				CE824B44148C5184000C1763 /* BudgetCell.h */,
 				CE824B45148C5184000C1763 /* BudgetCell.m */,
 				CE824B46148C5184000C1763 /* BudgetItemViewController.h */,
 				CE824B47148C5184000C1763 /* BudgetItemViewController.m */,
 				CE824B48148C5184000C1763 /* ViewBudgetViewController.h */,
 				CE824B49148C5184000C1763 /* ViewBudgetViewController.m */,
-				45F5805D1488614A00D847A4 /* CustomCell.m */,
 				CE7FF2BA148ACA3E0053A15F /* Budget.h */,
 				CE7FF2BB148ACA3E0053A15F /* Budget.m */,
 				CE823EAA148EE054000E898F /* PieClass.h */,
 				CE823EAB148EE054000E898F /* PieClass.m */,
 				CE823EAD148EE0B9000E898F /* PieClassAntiAlias.h */,
 				CE823EAE148EE0B9000E898F /* PieClassAntiAlias.m */,
+				45DA4A821493052B0030E7FA /* TransactionSummaryViewController.h */,
+				45DA4A831493052B0030E7FA /* TransactionSummaryViewController.m */,
+				45DA4AD414930A020030E7FA /* TransactionSummaryCell.h */,
+				45DA4AD514930A020030E7FA /* TransactionSummaryCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,11 +194,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */,
-				CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */,
-				CE824B3C148C50E7000C1763 /* database1.sql */,
-				CE824B3D148C50E7000C1763 /* Green dollar.png */,
+				451D0DD91493AF9A00F9A0A1 /* database1.sql */,
 				45F580A814886A2700D847A4 /* Images */,
+				CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */,
+				45DA4A841493052B0030E7FA /* TransactionSummaryViewController.xib */,
 				CE824B40148C5130000C1763 /* BudgetCell.xib */,
 				CE824B41148C5130000C1763 /* BudgetItemViewController.xib */,
 				45BA5B741487411B00098F36 /* SetBudgetViewController.xib */,
@@ -193,6 +206,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* FinanceManager-Info.plist */,
 				45F580681488620400D847A4 /* CustomCell.xib */,
+				45DA4AD714930A1D0030E7FA /* TransactionSummaryCell.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -211,6 +225,8 @@
 		45F580A814886A2700D847A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CE824B3D148C50E7000C1763 /* Green dollar.png */,
+				CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */,
 				CE819B9A148C644500A064DE /* money_icon.jpg */,
 				CE2937A3148BF44000E4139B /* Green dollar.png */,
 				4500C04114897BAB0078094B /* Default.png */,
@@ -282,13 +298,15 @@
 				459DF5AC148966CB0064A308 /* background.png in Resources */,
 				4500C04214897BAB0078094B /* Default.png in Resources */,
 				CE2937A4148BF44000E4139B /* Green dollar.png in Resources */,
-				CE824B3E148C50E7000C1763 /* database1.sql in Resources */,
 				CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */,
 				CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */,
 				CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */,
 				CE824B54148C51BA000C1763 /* ViewBudgetViewController.xib in Resources */,
 				CE819B80148C62A600A064DE /* PocketMoneyIcon.jpg in Resources */,
 				CE819B9B148C644500A064DE /* money_icon.jpg in Resources */,
+				45DA4A861493052B0030E7FA /* TransactionSummaryViewController.xib in Resources */,
+				45DA4AD814930A1D0030E7FA /* TransactionSummaryCell.xib in Resources */,
+				451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +331,8 @@
 				CE824B4C148C5184000C1763 /* ViewBudgetViewController.m in Sources */,
 				CE823EAC148EE054000E898F /* PieClass.m in Sources */,
 				CE823EAF148EE0B9000E898F /* PieClassAntiAlias.m in Sources */,
+				45DA4A851493052B0030E7FA /* TransactionSummaryViewController.m in Sources */,
+				45DA4AD614930A020030E7FA /* TransactionSummaryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

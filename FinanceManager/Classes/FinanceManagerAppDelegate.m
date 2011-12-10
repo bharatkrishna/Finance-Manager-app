@@ -97,6 +97,8 @@
 			while (sqlite3_step(compiledStatement) == SQLITE_ROW) {
 				//reading data
 				NSLog(@"stepping through: %@", [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)]);
+				NSLog(@"stepping through month: %@", [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 5)]);
+				NSLog(@"stepping through year: %@", [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 6)]);
 				NSLog(@"stepping: %s %d", sqlite3_errmsg(database), sqlite3_errcode(database));
 				int aIdent = sqlite3_column_int(compiledStatement, 0);
 				NSString *aDescription = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
