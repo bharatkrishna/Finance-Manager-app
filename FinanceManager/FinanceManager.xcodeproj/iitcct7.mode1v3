@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>33</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AddTransactionViewController.m</string>
+								<string>ExpenseItemViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,51 +324,51 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AddTransactionViewController.m</string>
+										<string>ExpenseItemViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4553B2891496A38A008B81C4</string>
+										<string>4553B2A51496A6A2008B81C4</string>
 										<key>history</key>
 										<array>
 											<string>45F580B31488746D00D847A4</string>
 											<string>459DF5A0148965890064A308</string>
 											<string>4500C04E14897BE40078094B</string>
-											<string>45B030AB1491C4B900024ECD</string>
-											<string>45B030AD1491C4B900024ECD</string>
 											<string>45B030F01491CC4200024ECD</string>
 											<string>45DA4A98149308010030E7FA</string>
 											<string>45DA4A99149308010030E7FA</string>
-											<string>45DA4AE414930C010030E7FA</string>
-											<string>45DA4AE614930C010030E7FA</string>
-											<string>45DA4B47149311530030E7FA</string>
 											<string>451D0E501493B84000F9A0A1</string>
-											<string>451D0EBD1493C14700F9A0A1</string>
-											<string>4553B22614966F7C008B81C4</string>
-											<string>4553B22714966F7C008B81C4</string>
-											<string>4553B22814966F7C008B81C4</string>
-											<string>4553B22914966F7C008B81C4</string>
-											<string>4553B22A14966F7C008B81C4</string>
-											<string>4553B22B14966F7C008B81C4</string>
-											<string>4553B22C14966F7C008B81C4</string>
 											<string>4553B22D14966F7C008B81C4</string>
-											<string>4553B22E14966F7C008B81C4</string>
-											<string>4553B22F14966F7C008B81C4</string>
 											<string>4553B23014966F7C008B81C4</string>
-											<string>4553B23114966F7C008B81C4</string>
-											<string>4553B23214966F7C008B81C4</string>
 											<string>4553B23314966F7C008B81C4</string>
-											<string>4553B23414966F7C008B81C4</string>
-											<string>4553B23514966F7C008B81C4</string>
-											<string>4553B2571496A02A008B81C4</string>
 											<string>4553B2581496A02A008B81C4</string>
 											<string>4553B2591496A02A008B81C4</string>
-											<string>4553B25A1496A02A008B81C4</string>
-											<string>4553B25B1496A02A008B81C4</string>
 											<string>4553B25C1496A02A008B81C4</string>
-											<string>4553B25D1496A02A008B81C4</string>
-											<string>4553B2671496A074008B81C4</string>
-											<string>4553B27C1496A201008B81C4</string>
+											<string>4553B28C1496A6A2008B81C4</string>
+											<string>4553B28D1496A6A2008B81C4</string>
+											<string>4553B28E1496A6A2008B81C4</string>
+											<string>4553B28F1496A6A2008B81C4</string>
+											<string>4553B2901496A6A2008B81C4</string>
+											<string>4553B2911496A6A2008B81C4</string>
+											<string>4553B2921496A6A2008B81C4</string>
+											<string>4553B2931496A6A2008B81C4</string>
+											<string>4553B2941496A6A2008B81C4</string>
+											<string>4553B2951496A6A2008B81C4</string>
+											<string>4553B2961496A6A2008B81C4</string>
+											<string>4553B2971496A6A2008B81C4</string>
+											<string>4553B2981496A6A2008B81C4</string>
+											<string>4553B2991496A6A2008B81C4</string>
+											<string>4553B29A1496A6A2008B81C4</string>
+											<string>4553B29B1496A6A2008B81C4</string>
+											<string>4553B29C1496A6A2008B81C4</string>
+											<string>4553B29D1496A6A2008B81C4</string>
+											<string>4553B29E1496A6A2008B81C4</string>
+											<string>4553B29F1496A6A2008B81C4</string>
+											<string>4553B2A01496A6A2008B81C4</string>
+											<string>4553B2A11496A6A2008B81C4</string>
+											<string>4553B2A21496A6A2008B81C4</string>
+											<string>4553B2A31496A6A2008B81C4</string>
+											<string>4553B2A41496A6A2008B81C4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -566,13 +566,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4553B28A1496A38A008B81C4</string>
 		<string>4553B2611496A02A008B81C4</string>
 		<string>4553B2621496A02A008B81C4</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>45BA5A9114871B7300098F36</string>
-		<string>/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/FinanceManager.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/iitcct7/Desktop/Final Project/Finance-Manager-app/FinanceManager/FinanceManager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>53 55 1220 723 0 0 1280 778 </string>
