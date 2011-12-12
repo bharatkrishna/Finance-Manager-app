@@ -43,14 +43,14 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	[self setTitle:@"Monthly Expense Records"];
+	self.navigationItem.title = @"Monthly Expense Records";
 	//[self.tableView reloadData];
 }
 
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-	[self setTitle:@"Monthly Expense Records"];
+	self.navigationItem.title = @"Monthly Expense Records";
 
 }
 

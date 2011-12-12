@@ -13,10 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		4500C04214897BAB0078094B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4500C04114897BAB0078094B /* Default.png */; };
-		451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */ = {isa = PBXBuildFile; fileRef = 451D0DD91493AF9A00F9A0A1 /* database1.sql */; };
+		451D0DDA1493AF9A00F9A0A1 /* database2.sql in Resources */ = {isa = PBXBuildFile; fileRef = 451D0DD91493AF9A00F9A0A1 /* database2.sql */; };
 		451D0E681493B91900F9A0A1 /* ExpenseItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D0E661493B91900F9A0A1 /* ExpenseItemViewController.m */; };
 		451D0E691493B91900F9A0A1 /* ExpenseItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */; };
+		4553B20A14966CE7008B81C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4553B20914966CE7008B81C4 /* Default.png */; };
+		4553B21014966DBF008B81C4 /* Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4553B20F14966DBF008B81C4 /* Dollar.png */; };
 		459DF5AC148966CB0064A308 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 459DF5AB148966CB0064A308 /* background.png */; };
 		45BA5A85148717A100098F36 /* AddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BA5A83148717A100098F36 /* AddTransactionViewController.m */; };
 		45BA5A86148717A100098F36 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BA5A84148717A100098F36 /* AddTransactionViewController.xib */; };
@@ -36,13 +37,11 @@
 		45F580691488620400D847A4 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F580681488620400D847A4 /* CustomCell.xib */; };
 		45F580A514886A1400D847A4 /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F580A414886A1400D847A4 /* 172-pricetag.png */; };
 		45F580A714886A2300D847A4 /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F580A614886A2300D847A4 /* 162-receipt.png */; };
-		CE2937A4148BF44000E4139B /* Green dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2937A3148BF44000E4139B /* Green dollar.png */; };
 		CE7FF2BC148ACA3E0053A15F /* Budget.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7FF2BB148ACA3E0053A15F /* Budget.m */; };
 		CE819B80148C62A600A064DE /* PocketMoneyIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */; };
 		CE819B9B148C644500A064DE /* money_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE819B9A148C644500A064DE /* money_icon.jpg */; };
 		CE823EAC148EE054000E898F /* PieClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE823EAB148EE054000E898F /* PieClass.m */; };
 		CE823EAF148EE0B9000E898F /* PieClassAntiAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = CE823EAE148EE0B9000E898F /* PieClassAntiAlias.m */; };
-		CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE824B3D148C50E7000C1763 /* Green dollar.png */; };
 		CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B40148C5130000C1763 /* BudgetCell.xib */; };
 		CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE824B41148C5130000C1763 /* BudgetItemViewController.xib */; };
 		CE824B4A148C5184000C1763 /* BudgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE824B45148C5184000C1763 /* BudgetCell.m */; };
@@ -61,11 +60,12 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FinanceManager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinanceManager_Prefix.pch; sourceTree = "<group>"; };
-		4500C04114897BAB0078094B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		451D0DD91493AF9A00F9A0A1 /* database1.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database1.sql; sourceTree = "<group>"; };
+		451D0DD91493AF9A00F9A0A1 /* database2.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = database2.sql; sourceTree = "<group>"; };
 		451D0E651493B91900F9A0A1 /* ExpenseItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseItemViewController.h; sourceTree = "<group>"; };
 		451D0E661493B91900F9A0A1 /* ExpenseItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseItemViewController.m; sourceTree = "<group>"; };
 		451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExpenseItemViewController.xib; path = Classes/ExpenseItemViewController.xib; sourceTree = "<group>"; };
+		4553B20914966CE7008B81C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4553B20F14966DBF008B81C4 /* Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dollar.png; sourceTree = "<group>"; };
 		459DF5AB148966CB0064A308 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		45BA5A82148717A100098F36 /* AddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionViewController.h; sourceTree = "<group>"; };
 		45BA5A83148717A100098F36 /* AddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionViewController.m; sourceTree = "<group>"; };
@@ -94,7 +94,6 @@
 		45F580A414886A1400D847A4 /* 172-pricetag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "172-pricetag.png"; sourceTree = "<group>"; };
 		45F580A614886A2300D847A4 /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FinanceManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FinanceManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		CE2937A3148BF44000E4139B /* Green dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green dollar.png"; sourceTree = "<group>"; };
 		CE7FF2BA148ACA3E0053A15F /* Budget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Budget.h; sourceTree = "<group>"; };
 		CE7FF2BB148ACA3E0053A15F /* Budget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Budget.m; sourceTree = "<group>"; };
 		CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PocketMoneyIcon.jpg; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 		CE823EAB148EE054000E898F /* PieClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieClass.m; sourceTree = "<group>"; };
 		CE823EAD148EE0B9000E898F /* PieClassAntiAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieClassAntiAlias.h; sourceTree = "<group>"; };
 		CE823EAE148EE0B9000E898F /* PieClassAntiAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieClassAntiAlias.m; sourceTree = "<group>"; };
-		CE824B3D148C50E7000C1763 /* Green dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green dollar.png"; sourceTree = "<group>"; };
 		CE824B40148C5130000C1763 /* BudgetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetCell.xib; sourceTree = "<group>"; };
 		CE824B41148C5130000C1763 /* BudgetItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BudgetItemViewController.xib; sourceTree = "<group>"; };
 		CE824B44148C5184000C1763 /* BudgetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetCell.h; sourceTree = "<group>"; };
@@ -201,7 +199,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				451D0DD91493AF9A00F9A0A1 /* database1.sql */,
+				451D0DD91493AF9A00F9A0A1 /* database2.sql */,
 				45F580A814886A2700D847A4 /* Images */,
 				CE824B53148C51BA000C1763 /* ViewBudgetViewController.xib */,
 				451D0E671493B91900F9A0A1 /* ExpenseItemViewController.xib */,
@@ -233,11 +231,10 @@
 		45F580A814886A2700D847A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CE824B3D148C50E7000C1763 /* Green dollar.png */,
+				4553B20914966CE7008B81C4 /* Default.png */,
+				4553B20F14966DBF008B81C4 /* Dollar.png */,
 				CE819B7F148C62A600A064DE /* PocketMoneyIcon.jpg */,
 				CE819B9A148C644500A064DE /* money_icon.jpg */,
-				CE2937A3148BF44000E4139B /* Green dollar.png */,
-				4500C04114897BAB0078094B /* Default.png */,
 				459DF5AB148966CB0064A308 /* background.png */,
 				45F580A614886A2300D847A4 /* 162-receipt.png */,
 				45F580A414886A1400D847A4 /* 172-pricetag.png */,
@@ -304,9 +301,6 @@
 				45F580A514886A1400D847A4 /* 172-pricetag.png in Resources */,
 				45F580A714886A2300D847A4 /* 162-receipt.png in Resources */,
 				459DF5AC148966CB0064A308 /* background.png in Resources */,
-				4500C04214897BAB0078094B /* Default.png in Resources */,
-				CE2937A4148BF44000E4139B /* Green dollar.png in Resources */,
-				CE824B3F148C50E7000C1763 /* Green dollar.png in Resources */,
 				CE824B42148C5130000C1763 /* BudgetCell.xib in Resources */,
 				CE824B43148C5130000C1763 /* BudgetItemViewController.xib in Resources */,
 				CE824B54148C51BA000C1763 /* ViewBudgetViewController.xib in Resources */,
@@ -314,8 +308,10 @@
 				CE819B9B148C644500A064DE /* money_icon.jpg in Resources */,
 				45DA4A861493052B0030E7FA /* TransactionSummaryViewController.xib in Resources */,
 				45DA4AD814930A1D0030E7FA /* TransactionSummaryCell.xib in Resources */,
-				451D0DDA1493AF9A00F9A0A1 /* database1.sql in Resources */,
+				451D0DDA1493AF9A00F9A0A1 /* database2.sql in Resources */,
 				451D0E691493B91900F9A0A1 /* ExpenseItemViewController.xib in Resources */,
+				4553B20A14966CE7008B81C4 /* Default.png in Resources */,
+				4553B21014966DBF008B81C4 /* Dollar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
