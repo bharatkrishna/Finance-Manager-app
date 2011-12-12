@@ -60,7 +60,7 @@
 	[gasLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem gas]]];
 	[otherLabel setText:[NSString stringWithFormat:@"$ %@", [menuItem other]]];
 
-    
+    // Draw a Pie Chart
     PieClass *myPieClass=[[PieClass alloc]initWithFrame:CGRectMake(55, 190, 320, 230)];
     myPieClass.itemArray=[[NSArray alloc]initWithObjects:[menuItem rent],[menuItem utilities],[menuItem food],
 						  [menuItem living],[menuItem gas], [menuItem other], nil];

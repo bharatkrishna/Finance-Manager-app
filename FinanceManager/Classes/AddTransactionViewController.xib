@@ -254,7 +254,7 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUIText"/>
 						<int key="IBUIBorderStyle">3</int>
-						<string key="IBUIPlaceholder">mm-dd-yyy </string>
+						<string key="IBUIPlaceholder">mm-dd-yyyy </string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -280,7 +280,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUINavigationItem" id="713918679">
 								<reference key="IBUINavigationBar" ref="796051501"/>
-								<string key="IBUITitle">Add Transactions</string>
+								<string key="IBUITitle">Add Expenses</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
 						</object>

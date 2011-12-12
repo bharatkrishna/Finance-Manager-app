@@ -19,6 +19,7 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
+// method for startup splash screen animation 
 - (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
 	[splashView removeFromSuperview];
 	[splashView release];
@@ -51,7 +52,7 @@
 	[window bringSubviewToFront:splashView];
 	[UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:2.5];
-	[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:window cache:YES];
+	[UIView setAnimationTransition:UIViewAnimationTransitionNone forView:window cache:YES]; //animation transition effect
 	[UIView setAnimationDelegate:self]; 
 	[UIView setAnimationDidStopSelector:@selector(startupAnimationDone:finished:context:)];
 	splashView.alpha = 0.0;
@@ -81,11 +82,10 @@
 		[fileManager release];
 	}
 }
-
+// Methods to read data from the database
 -(void) readItemsFromDatabase {
 	
-	sqlite3 *database;
-	
+	sqlite3 *database;	
 	items = [[NSMutableArray alloc] init];
 	
 	if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {

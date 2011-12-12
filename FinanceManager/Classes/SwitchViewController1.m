@@ -45,7 +45,7 @@
         }
 		[UIView setAnimationTransition:
          UIViewAnimationTransitionFlipFromRight
-                               forView:self.view cache:YES];
+                               forView:self.view cache:YES]; // Animation for view change
 		
         [atvc viewWillAppear:YES];
         [sbvc viewWillDisappear:YES];
@@ -57,7 +57,7 @@
         [atvc viewDidAppear:YES];
 		
     }
-    else
+    else //switc to other view
     {
 		if (self.atvc == nil)
 		{

@@ -42,7 +42,7 @@
 -(IBAction)saveBudget {
 	
 	NSCharacterSet *decimalSet = [NSCharacterSet decimalDigitCharacterSet];
-
+	// Code for validation of text input - to allow only numbers & decimal point
 	BOOL rentValid = ([[[rentField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
 						  [[[rentField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
 	BOOL utilityValid = ([[[utilityField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
@@ -56,7 +56,8 @@
 	BOOL otherValid = ([[[otherField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
 						[[[otherField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
 	BOOL yearValid = ([[[yearField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""]);
-
+	
+	// Following are validation for text fields - to prevent blank entry
 	if ([[monthField text] length]==0){
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please fill out the month field"
 													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
@@ -138,6 +139,7 @@
 			NSLog(@"closing: %s", sqlite3_errmsg(database));
 		}
 		sqlite3_close(database);
+		// Validation to check if budget for the month & year have already been set
 		if(flag==@"true"){
 			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Budget for month:%@ year:%@ has already exists. Please select a different month & year",
 								  [monthField text],[yearField text]]
@@ -192,7 +194,7 @@
 */
 
 
-//Action sheet date picker functions end.
+//Action sheet picker view to select month
 
 -(IBAction)callPicker:(id)sender{
 	self.actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:nil cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil]; 

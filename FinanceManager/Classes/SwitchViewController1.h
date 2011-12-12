@@ -10,6 +10,7 @@
 
 @class AddTransactionViewController;
 @class SetBudgetViewController;
+
 @interface SwitchViewController1 : UIViewController {
 	AddTransactionViewController *atvc;
 	SetBudgetViewController *sbvc;	

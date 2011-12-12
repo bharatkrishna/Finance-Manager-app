@@ -41,7 +41,7 @@
 	
 	return self;
 }
-
+// Add an Expense entry to database
 -(void) addItemToDatabase {
 	sqlite3 *database;
 	NSString *databasePath;
@@ -68,7 +68,7 @@
 	NSLog(@"closing database");
 	sqlite3_close(database);
 }
-
+// Remove an expense entry from database
 -(void) removeItemFromDatabase {
 	sqlite3 *database;
 	NSString *databasePath;

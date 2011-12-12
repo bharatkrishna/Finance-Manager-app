@@ -28,21 +28,71 @@
 }
 // To save the contents of the textbox to the database
 -(IBAction)saveItem {
-	newItem = [[Item alloc] initWithDescription:[descriptionField text] amount:[amountField text] tag:[tagField text] date:[dateField text]];
-	FinanceManagerAppDelegate *delegate = (FinanceManagerAppDelegate *)[[UIApplication sharedApplication] delegate];
-	[delegate addItem:newItem];
-	[newItem addItemToDatabase];
-	//[self.navigationController popViewControllerAnimated:YES];
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" 
-													message:@"Transaction Added"
-												   delegate:nil 
-										  cancelButtonTitle:@"OK" 
-										  otherButtonTitles: nil];
-	[alert show];
-	[alert release];
+	
+	// For validation of date field - check if entered text if of the defined date format
+	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"MM-dd-yyyy"]; 
+	NSDate *validDate = [dateFormatter dateFromString:[dateField text]];
+	
+	// Validation of text entered in amount field - allow only numers & decimal point
+	NSCharacterSet *decimalSet = [NSCharacterSet decimalDigitCharacterSet];
+	BOOL amountValid = ([[[amountField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@""] || 
+					  [[[amountField text] stringByTrimmingCharactersInSet:decimalSet] isEqualToString:@"."]);
+	
+	// Validation of text - to prevent blank entry
+	if ([[descriptionField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please enter a description"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else if ([[amountField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please enter an amount"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else if ([[tagField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please enter a tag"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else if ([[dateField text] length]==0){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please enter a date"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!amountValid){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Only number is allowed in Amount field"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else if(!validDate){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Please enter date in mm-dd-yyyy format"
+													   delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+		[alert show];
+		[alert release];
+	}
+	else {	
+		newItem = [[Item alloc] initWithDescription:[descriptionField text] amount:[amountField text] tag:[tagField text] date:[dateField text]];
+		FinanceManagerAppDelegate *delegate = (FinanceManagerAppDelegate *)[[UIApplication sharedApplication] delegate];
+		[delegate addItem:newItem];
+		[newItem addItemToDatabase];
+		//[self.navigationController popViewControllerAnimated:YES];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" 
+														message:@"Transaction Added"
+													   delegate:nil 
+											  cancelButtonTitle:@"OK" 
+											  otherButtonTitles: nil];
+		[alert show];
+		[alert release];
+	}
 }
 
-// Following are actionsheet date picker related functions. Do not modify.
+// Following are actionsheet date picker related functions. 
 
 - (void)changeDate:(UIDatePicker *)sender {
 	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
@@ -109,7 +159,9 @@
 	
 }
 
-//month Action sheet date picker functions end.
+// Action sheet date picker functions end.
+
+//Following are actionsheet picker view related methods:
 
 -(IBAction)callPicker:(id)sender{
 	self.actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:nil cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil]; 
@@ -150,7 +202,7 @@
     [self.actionSheet dismissWithClickedButtonIndex:0 animated:YES];
     
 }
-
+// UIPickerView related methods: 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     NSLog(@"%@",[tagArray objectAtIndex:row]);
@@ -198,7 +250,7 @@
 	tagArray = [[NSArray alloc] initWithObjects:@"Food",@"Rent",@"Utilities",@"Living",@"Gas",@"Others",nil];
 	tagField.inputView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
 	amountField.keyboardType = UIKeyboardTypeDecimalPad;
-	self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"background.png"]]; 
+	self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"background.png"]]; //background image
 
     [super viewDidLoad];
 }
@@ -223,10 +275,12 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+	tagArray= nil;
 }
 
 
 - (void)dealloc {
+	[tagArray release];
 	[dateField release];
 	[amountField release];
 	[tagField release];
