@@ -120,7 +120,7 @@
 		NSString *databasePath;
 		NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 		NSString *documentDir = [documentPaths objectAtIndex:0];
-		databasePath = [documentDir stringByAppendingPathComponent:@"database2.sql"];
+		databasePath = [documentDir stringByAppendingPathComponent:@"database4.sql"];
 		NSLog(@"111111");
 		if (sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 			NSString *sqlStatement = [NSString stringWithFormat:@"select * from Budgets where month=\'%@\' and year=\'%@\'",[monthField text],[yearField text]];

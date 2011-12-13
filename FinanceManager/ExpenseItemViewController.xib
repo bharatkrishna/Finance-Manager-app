@@ -593,7 +593,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>BudgetItemViewController</string>
+					<string>ExpenseItemViewController</string>
 					<string>UIResponder</string>
 					<string>{{404, 244}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -682,7 +682,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">BudgetItemViewController</string>
+					<string key="className">ExpenseItemViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -760,7 +760,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/BudgetItemViewController.h</string>
+						<string key="minorKey">Classes/ExpenseItemViewController.h</string>
 					</object>
 				</object>
 			</object>

@@ -12,13 +12,33 @@
 #import "PieClass.h"
 
 @interface ExpenseItemViewController : UIViewController {
-	Item *expenseItem;
-	//NSString *month;
+	NSMutableArray *expenseItem;
+	NSString *monthString;
+	NSString *yearString;
+	UILabel *yearLabel;
+	UILabel *monthLabel;
+	UILabel *rentLabel;
+	UILabel *foodLabel;
+	UILabel *livingLabel;
+	UILabel *utilitiesLabel;
+	UILabel *gasLabel;
+	UILabel *otherLabel;
 }
 
-@property (nonatomic, retain) Item *expenseItem;
 
-//-(id) getMonth:(NSString *)m;
-//-(id) initWithDescription:(NSString *)d amount:(NSString *)a tag:(NSString * )t date:(NSString * )da;
+@property (nonatomic, retain) IBOutlet UILabel *yearLabel;
+@property (nonatomic, retain) IBOutlet UILabel *monthLabel;
+@property (nonatomic, retain) IBOutlet UILabel *rentLabel;
+@property (nonatomic, retain) IBOutlet UILabel *foodLabel;
+@property (nonatomic, retain) IBOutlet UILabel *livingLabel;
+@property (nonatomic, retain) IBOutlet UILabel *utilitiesLabel;
+@property (nonatomic, retain) IBOutlet UILabel *gasLabel;
+@property (nonatomic, retain) IBOutlet UILabel *otherLabel;
 
+@property (nonatomic, retain) NSMutableArray *expenseItem;
+@property (nonatomic, retain) NSString *monthString;
+@property (nonatomic, retain) NSString *yearString;
+//-(id) getMonth:(NSString *)m;'
+- (id) initWithMonth:(NSString *)month year:(NSString *)year  nibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
+- (void) loadItemsFromDatabase:(NSString *)databasePath;
 @end

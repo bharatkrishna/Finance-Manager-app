@@ -41,8 +41,8 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
 	
     
-    CGContextSetAllowsAntialiasing(context, false);
-    CGContextSetShouldAntialias(context, false);
+    CGContextSetAllowsAntialiasing(context, true);
+    CGContextSetShouldAntialias(context, true);
     
 	
     

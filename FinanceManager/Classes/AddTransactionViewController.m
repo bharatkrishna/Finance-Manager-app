@@ -89,6 +89,10 @@
 											  otherButtonTitles: nil];
 		[alert show];
 		[alert release];
+		[descriptionField setText:@""];
+		[amountField setText:@""];
+		[tagField setText:@""];
+		[dateField setText:@""];
 	}
 }
 

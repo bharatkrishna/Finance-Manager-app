@@ -2,8 +2,8 @@
 //  RootViewController.m
 //  sqlite
 //
-//  Created by Soren Haurberg on 11/9/10.
-//  Copyright 2010 Illinois Institute of Technology. All rights reserved.
+//  Created by Snow Leopard User on 04/12/2011.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewBudgetViewController.h"

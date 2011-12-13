@@ -30,7 +30,7 @@
     // Override point for customization after application launch.
     
 	//set db name
-	databaseName = @"database2.sql";
+	databaseName = @"database4.sql";
 	//put together db path
 	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentDir = [documentPaths objectAtIndex:0];
@@ -75,7 +75,7 @@
 		return;
 	}
 	else {
-		NSString *databasePathFromApp = [[NSBundle mainBundle] pathForResource:@"database2" ofType:@"sql"];
+		NSString *databasePathFromApp = [[NSBundle mainBundle] pathForResource:@"database4" ofType:@"sql"];
 		NSLog(@"path: %@", databasePathFromApp);
 		NSLog(@"to: %@", databasePath);
 		[fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];

@@ -114,6 +114,18 @@
 }
 
 
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+	//Budget *budgetItem = [budgetItems objectAtIndex:[indexPath row]];
+	NSString *month = [montharray objectAtIndex:indexPath.row];
+	ExpenseItemViewController *mivc = [[ExpenseItemViewController alloc] initWithMonth:month year:yearString nibName:@"ExpenseItemViewController" bundle:nil];
+	[self.navigationController pushViewController:mivc animated:YES];
+	self.navigationItem.title = @"Back";
+	[mivc release];
+	
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -154,18 +166,6 @@
 */
 
 
-#pragma mark -
-#pragma mark Table view delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    
-	NSString *month = [montharray objectAtIndex:[indexPath row]];
-	ExpenseItemViewController *mivc = [[ExpenseItemViewController alloc] initWithNibName:@"ExpenseItemViewController" bundle:nil];
-	[self.navigationController pushViewController:mivc animated:YES];
-	//self.navigationItem.title = @"Back";
-	[mivc release];
-}
 
 
 #pragma mark -
