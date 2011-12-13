@@ -1,0 +1,17 @@
+Finance Manager iPhone App
+--------------------------
+
+Description: 
+This is an expenses tracing app. The user can set monthly budgets and add daily expenses. The expenses and budgets can be visualized using pie charts.
+
+Some of the implemented iOS SDK elements: 
+* UITabBarControlelr
+* UINavigationController
+* UIActionSheet
+* UIPickerview
+* SQLite Database Library
+
+This would be a good code sample for people looking at implementing an UIPicker inside an ActionSheet, Splash Screen with transition effects, view switching between multiple views and DB operations
+
+Known Issues:
+In the Expense Summary tab, the month & year are hard coded. So it'd work only if you are trying this app before 31st Dec 2011.
