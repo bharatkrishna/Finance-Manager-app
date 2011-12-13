@@ -2,7 +2,7 @@ Finance Manager iPhone App
 --------------------------
 
 Description: 
-This is an expenses tracing app. The user can set monthly budgets and add daily expenses. The expenses and budgets can be visualized using pie charts.
+This is an expenses tracking app. The user can set monthly budgets and add daily expenses. The expenses and budgets can be visualized using pie charts.
 
 Some of the implemented iOS SDK elements: 
 * UITabBarControlelr
